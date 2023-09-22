@@ -1,0 +1,26 @@
+.drop-btn{
+    border: none;
+    color : black;
+    font-weight: bold;
+    font-size: 1.2vw;
+
+}
+.drop-list{
+    width: 15vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vw;
+ 
+    
+}
+.drop-item{
+  color: rgb(0, 0, 0);
+  margin: 0;
+width: 10vw;
+font-size: 1.2vw;
+}
+.drop-item:hover{
+    color:red;
+
+}
