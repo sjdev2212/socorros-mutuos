@@ -11,7 +11,7 @@ import "../styles/Carousel.css";
   const [slide, setSlide] = useState(0);
   const [div , setDiv] = useState(0);
 
-  const nextSlide = () => {
+/*   const nextSlide = () => {
     setSlide(slide === data.length - 1 ? 0 : slide + 1);
   };
 
@@ -19,7 +19,7 @@ import "../styles/Carousel.css";
     setDiv(div === divs.length - 1 ? 0 : div + 1);
 
   }
-
+ */
   const data = [
     {
         src: doctor,
