@@ -12,27 +12,9 @@ const Dropdown2 = () => {
     setIsOpen(false);
   }
 
-  const dropClosed ={
-    display: "none"
- 
 
-  }
-  const dropOpen ={
-    display: "flex",
-    flexDirection: "column",
-    position: "absolute",
-    backgroundColor: "whitesmoke",
-    border: "3px solid rgba(0,0,0,.15)",
-    MaxWidth: "4vw",
-    boxShadow: "0px 8px 16px 0px rgba(0,0,0,0.2)",
-    zIndex: "1",
-    marginTop: "10px",
-    listStyle: "none",  
-    height: "25vw",
- 
-
-  }
-
+  const dropOpen = "drop-open"
+  const dropClosed = "drop-closed"
   return (
     <div >
       <button className="drop-btn" onMouseOver={toggleOpen}>
@@ -40,8 +22,8 @@ const Dropdown2 = () => {
       </button>
 
 
-      <div onMouseLeave={toggleClosed} style={isOpen ? dropOpen : dropClosed}>
-        <ul className="drop-list">
+      <div >
+        <ul onMouseLeave={toggleClosed} className={isOpen ? dropOpen : dropClosed}>
           <li className="drop-item">FUMIGACION DE LOS PANTEONES A Y B</li>
           <li className="drop-item">VISITA DE UN CURSO DE LA UADE</li>
           <li className="drop-item">PRESTADORES MEDICOS PERIFERICOS  AÑO- 2021</li>

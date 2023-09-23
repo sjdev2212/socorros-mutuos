@@ -13,28 +13,8 @@ const Dropdown = () => {
     setIsOpen(false);
   }
 
-  const dropClosed ={
-    display: "none"
- 
-
-  }
-  const dropOpen ={
-    display: "flex",
-    flexDirection: "column",
-    position: "absolute",
-    backgroundColor: "whitesmoke",
-    border: "3px solid rgba(0,0,0,.15)",
-    MaxWidth: "4vw",
-    boxShadow: "0px 8px 16px 0px rgba(0,0,0,0.2)",
-    zIndex: "1",
-    marginTop: "10px",
-    listStyle: "none",  
-    height: "25vw",
-   
-    
- 
-
-  }
+const dropOpen = "drop-open"
+const dropClosed = "drop-closed"
 
   return (
     <div >
@@ -43,8 +23,8 @@ const Dropdown = () => {
       </button>
 
 
-      <div onMouseLeave={toggleClosed} style={isOpen ? dropOpen : dropClosed}>
-        <ul className="drop-list">
+      <div >
+        < ul onMouseLeave={toggleClosed} className={isOpen ? dropOpen : dropClosed}>
           <li className="drop-item">Servicio de urgencias</li>
           <li className="drop-item">Plan de Salud Medicos Perifericos</li>
           <li className="drop-item">Convenio "GERDANA SALUD"</li>

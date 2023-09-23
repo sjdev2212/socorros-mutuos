@@ -11,11 +11,12 @@ cursor: "pointer",
 textDecoration: "none",
 color: "black",
 fontSize: "1.2vw",
-width: "6vw",
+width: "7vw",
 height: "1vw",
 display: "flex",
 alignItems: "center",
 justifyContent: "start",
+paddingLeft: "1vw",
 
 }
 const Navbar = () => {

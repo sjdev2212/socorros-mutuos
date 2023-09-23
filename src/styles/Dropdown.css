@@ -5,22 +5,39 @@
     font-size: 1.2vw;
 
 }
-.drop-list{
-    width: 15vw;
-    display:flex;
+
+
+.drop-open{
+    display: flex;
     flex-direction: column;
+    position: absolute;
+    background-color: whitesmoke;
+    border: 3px solid rgba(0,0,0,.15);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+    list-style: none;  
+    height: 25vw;
+    font-size: 0.95vw;
+    width: 14vw;
     align-items: center;
-    height: 40vw;
- 
-    
+    justify-items: center;
+    cursor: pointer;
+    font-weight: bold;
 }
-.drop-item{
+.drop-closed{
+    display: none;
+}
+
+
+
+ .drop-item{
   color: rgb(0, 0, 0);
   margin: 0;
 width: 10vw;
-font-size: 1.2vw;
+
 }
 .drop-item:hover{
     color:red;
 
-}
+} 
