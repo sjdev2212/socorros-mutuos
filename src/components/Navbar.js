@@ -1,42 +1,110 @@
-import React from 'react'
-import logo from '../images/logo.png'
-import Dropdowns from './Dropdown'
-import Dropdown from './DropDown2'
-import '../styles/Navbar.css'
-import {Link} from 'react-router-dom'
-
-
+import React from "react";
+import { useState } from "react";
+import logo from "../images/logo.png";
+import Dropdowns from "./Dropdown";
+import Dropdown from "./DropDown2";
+import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
+import menu from "../images/menu.png";
+import close from "../images/close.png";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleOpen = () => {
+    setIsOpen(true);
+  };
+  const toggleClosed = () => {
+    setIsOpen(false);
+  };
+
   return (
     <main className="navbar-container">
       <section className="navbar-main">
         <div className="navbar-logo">
-            <img src={logo} alt="logo" width={75} height={75}/>
-        <p style={{
-          margin: "0",
-        }}>
-          <strong>ASOCIACION SOCORROS MUTUOS</strong>  
-        </p>
+          <img className="logo" src={logo} alt="logo" width={75} height={75} />
+          <p className="brand">
+            <strong>ASOCIACION SOCORROS MUTUOS</strong>
+          </p>
         </div>
-        <ul className="navbar-links">
-           <li> <Link className="item-list" to="/">Inicio</Link></li>
-           <li> <Link className="item-list" >Institucional</Link></li>
-           <li className="drop"><Dropdowns/></li>
-           <li>  <Link className="item-list">Contactarse</Link></li>
-           <li>  <Link className="item-list">Preguntas</Link></li>
-           <li>  <Link className="item-list">Sitios de Interes</Link></li>
-           <li>  <Link className="item-list" >Como Asociarse</Link></li>
-            
+        <section className="navbar-mobile">
+          <div className="navbar-mobile-btns">
+            <button
+              className="hamb"
+              onClick={isOpen ? toggleClosed : toggleOpen}
+            >
+              <img src={isOpen ? close : menu} alt="BTNS" />
+            </button>
+          </div>
+          <ul className={ isOpen ?  "ul-list-mobile" : " ul-closed" }>
+            <li className="item-list-mobile">
+              <Link className="mobile-link" to="/">
+                Inicio
+              </Link>
+            </li>
+            <li className="item-list-mobile">
+             <Link className="mobile-link">Institucional</Link>
+            </li>
+            <li className="item-list-mobile">Servicios</li>
+            <li className="item-list-mobile">
+            <Link className="mobile-link">Contactarse</Link>
+            </li>
+            <li className="item-list-mobile">
+             <Link className="mobile-link">Preguntas</Link>
+            </li>
+            <li className="item-list-mobile">
            
-           <li><Dropdown/></li>
-          
-</ul>
+              <Link className="mobile-link">Sitios de Interes</Link>
+            </li>
+            <li className="item-list-mobile">
+         
+              <Link className="mobile-link">Como Asociarse</Link>
+            </li>
+            <li className="item-list-mobile">
+              
+              <Link className="mobile-link">De interes para el Socio</Link>
+            </li>
+          </ul>
         </section>
-        
-        
-        </main>
-  )
-}
 
-export default Navbar
+        <ul className="navbar-links">
+          <li>
+           
+            <Link className="item-list" to="/">
+              Inicio
+            </Link>
+          </li>
+          <li>
+           
+            <Link className="item-list">Institucional</Link>
+          </li>
+          <li className="drop">
+            <Dropdowns />
+          </li>
+          <li>
+         
+            <Link className="item-list">Contactarse</Link>
+          </li>
+          <li>
+       
+            <Link className="item-list">Preguntas</Link>
+          </li>
+          <li>
+         
+            <Link className="item-list">Sitios de Interes</Link>
+          </li>
+          <li>
+          
+            <Link className="item-list">Como Asociarse</Link>
+          </li>
+
+          <li>
+            <Dropdown />
+          </li>
+        </ul>
+      </section>
+    </main>
+  );
+};
+
+export default Navbar;
