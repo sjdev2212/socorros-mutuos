@@ -90,6 +90,8 @@ ul {
 @media screen and (max-width: 768px) {
   .navbar-container {
     height: 22vw;
+    width: 100%;
+     background-color: rgb(30, 192, 38);
 
   }
 
@@ -121,6 +123,7 @@ ul {
 
   .navbar-mobile-btns {
     display: block;
+    margin-right: 2vw;
   }
 
 .hamb {
@@ -175,9 +178,7 @@ align-items: center;
     color: rgb(19, 95, 17);
   }
 
-
-
-  .ul-closed{
+.ul-closed{
     display: none;
   }
 
