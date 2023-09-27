@@ -29,7 +29,6 @@ const dropClosed = "drop-closed"
           <li className="drop-item">Plan de Salud Medicos Perifericos</li>
           <li className="drop-item">Convenio "GERDANA SALUD"</li>
           <li className="drop-item">Servicios de Sepelios</li>
-          <li className="drop-item">IMPORTANTE: NUEVOS SERVICIOS DE SALUD RELACIONADOS CON COVID 19</li>
           <li className="drop-item">Panteones Propios</li>
           <li className="drop-item">Subsidios</li>
           <li className="drop-item">Convenios</li>
