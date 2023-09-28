@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Carousel from './components/Carousel';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <main>
 
 <Navbar/>
+<Carousel/>
 
    
     </main>
