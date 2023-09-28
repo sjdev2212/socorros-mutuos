@@ -14,7 +14,8 @@ const Carousel = () => {
     width: windowWidth > 768 ? "37vw" : "88vw",
     height: windowWidth > 768 ? "29.5vw" : "75vw",
     border: "2px solid black",
-    backgroundColor: "white",
+    backgroundColor: "rgba(255, 255, 255, 0.7)",
+  
     borderRadius: "15px",
     boxShadow: "0 0 10px black",
     position: "relative",
@@ -43,6 +44,7 @@ const Carousel = () => {
     textAlign: "center",
     position: "relative",
     top: windowWidth > 768 ? "2vw" : "6vw",
+    zIndex: "1",
   };
   const gerdanaH1 = "Plan de Salud ";
   const panteones = "Panteones Propios";
@@ -61,6 +63,7 @@ const Carousel = () => {
         marignTop: "3vw",
         position: "relative",
         top: "2vw",
+        zIndex: "1",
       },
       btn: "Ver mas",
     },
