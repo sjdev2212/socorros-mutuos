@@ -53,6 +53,10 @@ const Navbar = () => {
              <Link className="mobile-link">Preguntas</Link>
             </li>
             <li className="item-list-mobile">
+             <Link className="mobile-link">Novedades</Link>
+            </li>
+
+            <li className="item-list-mobile">
            
               <Link className="mobile-link">Sitios de Interes</Link>
             </li>
@@ -89,6 +93,11 @@ const Navbar = () => {
        
             <Link className="item-list">Preguntas</Link>
           </li>
+          < li className="item-list">
+
+          Novedades
+            </li>
+
           <li>
          
             <Link className="item-list">Sitios de Interes</Link>

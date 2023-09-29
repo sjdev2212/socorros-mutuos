@@ -1,0 +1,226 @@
+.footer-container {
+    background-color: rgb(56 114 56);
+    height: 25vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newsletter {
+    border: 2 px solid black;
+    background-color: rgb(12 151 7);
+}
+
+.contact {
+    background-color: rgb(12 151 7);
+}
+
+.contact ul {
+    border: 2 px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0.2vw;
+
+}
+
+.contact li {
+    border: 1px solid rgb(169 206 145);
+    border-radius: 4px;
+    width: 17vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+.form{
+    margin: 0;
+   position: relative;
+    top: -1.2vw;
+    
+   
+}
+
+.input {
+    width: 30%;
+    height: 2vw;
+    border: 2px solid black;
+    background-color: rgb(255 255 255);
+    border-radius: 8px;
+    margin-left: 1vw;
+  
+}
+
+.btn-boletin {
+    background-color: rgb(255 255 255);
+    border: 2px solid black;
+    width: 16%;
+    height: 2.6vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgb(0 0 0);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 8px;
+
+}
+
+.btn-boletin:hover {
+    background-color: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.boletin-h1 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+}
+
+.boletin-p {
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    margin-top: -1vw;
+    margin-left: 1.3vw;
+}
+
+
+.phone {
+    width: 2.9vw;
+   
+}
+.phone:hover {
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+
+.google {
+    width: 2vw;
+   
+}
+.google:hover {
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+.instagram {
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.instagram:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+
+.contact-insta {
+    margin: 0.5vw auto;
+}
+
+.contact-whats {
+    margin: 0 auto;
+    padding-top: 1vw;
+}
+
+.face {
+    width: 2.9vw;
+    margin-top: 1.4vw;
+    cursor: pointer;
+
+}
+.face:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+
+.whats {
+    width: 2.7vw;
+    cursor: pointer;
+
+}
+.whats:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+
+.mail {
+    width: 2.7vw;
+    cursor: pointer;
+}
+.mail:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+
+.direccion {
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.tel-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.telefonos {
+    display: block;
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin: 0;
+
+
+
+}
+
+.tel-p {
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.horarios{
+    border: 2px solid rgb(173, 209, 172);
+    width: 20vw;
+    height: 10vw;
+    margin: 1vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+    position: relative;
+    top: -0.9vw;
+  
+}
+.horarios-h3{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+}
+.horarios-p{
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    margin-top: -1vw;
+    margin-left: 1.3vw;
+}
