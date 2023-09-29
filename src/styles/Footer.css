@@ -99,6 +99,7 @@
     width: 2.9vw;
    
 }
+
 .phone:hover {
     scale: 1.2;
     transition: 0.5s;
@@ -109,6 +110,7 @@
     width: 2vw;
    
 }
+
 .google:hover {
     scale: 1.2;
     transition: 0.5s;
@@ -119,6 +121,7 @@
     height: 4vw;
     cursor: pointer;
 }
+
 .instagram:hover {
     scale: 1.3;
     transition: 0.5s;
@@ -139,6 +142,7 @@
     cursor: pointer;
 
 }
+
 .face:hover {
     scale: 1.3;
     transition: 0.5s;
@@ -149,6 +153,7 @@
     cursor: pointer;
 
 }
+
 .whats:hover {
     scale: 1.3;
     transition: 0.5s;
@@ -158,6 +163,7 @@
     width: 2.7vw;
     cursor: pointer;
 }
+
 .mail:hover {
     scale: 1.3;
     transition: 0.5s;
@@ -196,7 +202,7 @@
 }
 
 .horarios{
-    border: 2px solid rgb(173, 209, 172);
+    border: 2px solid rgb(173 209 172);
     width: 20vw;
     height: 10vw;
     margin: 1vw;
@@ -210,6 +216,7 @@
     top: -0.9vw;
   
 }
+
 .horarios-h3{
     font-size: 1.3vw;
     font-weight: bold;
@@ -217,10 +224,128 @@
     margin-top: 1vw;
     margin-left: 1.3vw;
 }
+
 .horarios-p{
     font-size: 1.1vw;
     font-weight: bold;
     color: rgb(255 255 255);
     margin-top: -1vw;
     margin-left: 1.3vw;
+}
+
+/* MOBILE -------------------------------------------- */
+
+@media screen and (width <= 768px) {
+    .footer-container {
+  
+        height: 110vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: ;
+        border: 3px solid black;
+    }
+    .newsletter{
+        width: 100%;
+        height: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(12 151 7);
+        margin: 0;
+        position: relative;
+        top: -17vw;
+    }
+    .boletin-h1 {
+        font-size: 5vw;
+        font-weight: bold;
+        color: rgb(255 255 255);
+        margin-left: 1.3vw;
+    }
+    .boletin-p {
+      display: none;
+    }
+    .form{
+    display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center; 
+justify-items: center;     
+       
+    }
+    .input {
+        width: 70vw;
+        height: 6vw;
+        border: 2px solid black;
+        background-color: rgb(255 255 255);
+        border-radius: 8px;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        font-size: 3vw;
+        font-weight: bold;
+        color: rgb(0 0 0);
+    }
+
+    .btn-boletin {
+        background-color: rgb(255 255 255);
+        border: 2px solid black;
+        width: 30vw;
+        height: 6vw;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        font-size: 3vw;
+        font-weight: bold;
+        color: rgb(0 0 0);
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 8px;
+    
+    }
+    
+    .btn-boletin:hover {
+        background-color: rgb(0 0 0);
+        color: rgb(255 255 255);
+    }
+
+    .horarios{
+        border: 2px solid rgb(173 209 172);
+        width: 60vw;
+        height: 30vw;
+        margin: 1vw;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 1.3vw;
+        font-weight: bold;
+        position: relative;
+        top: -0.9vw;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+      
+    }
+    
+    .horarios-h3{
+        font-size: 3vw;
+        font-weight: bold;
+        color: rgb(255 255 255);
+        margin-top: 1vw;
+        margin-left: 1.3vw;
+    }
+    
+    .horarios-p{
+        font-size: 2.8vw;
+        font-weight: bold;
+        color: rgb(255 255 255);
+        margin-top: -1vw;
+        margin-left: 1.3vw;
+    }
+    
+    
+    
+    
 }
