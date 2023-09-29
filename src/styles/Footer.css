@@ -237,7 +237,6 @@
 
 @media screen and (width <= 768px) {
     .footer-container {
-  
         height: 110vw;
         width: 100%;
         display: flex;
@@ -247,6 +246,7 @@
         background-color: ;
         border: 3px solid black;
     }
+
     .newsletter{
         width: 100%;
         height: 70vw;
@@ -259,15 +259,18 @@
         position: relative;
         top: -17vw;
     }
+
     .boletin-h1 {
         font-size: 5vw;
         font-weight: bold;
         color: rgb(255 255 255);
         margin-left: 1.3vw;
     }
+
     .boletin-p {
       display: none;
     }
+
     .form{
     display: flex;
 flex-direction: column; 
@@ -276,6 +279,7 @@ justify-content: center;
 justify-items: center;     
        
     }
+
     .input {
         width: 70vw;
         height: 6vw;
