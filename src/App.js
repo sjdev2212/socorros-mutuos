@@ -1,7 +1,10 @@
 import './App.css';
+import React from 'react';
+import {Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
-import Carousel from './components/Carousel';
+import Home from './components/Home';
 import Footer from './components/Footer';
+import Institucional from './components/Institucional';
 
 
 function App() {
@@ -9,8 +12,14 @@ function App() {
     <main className="main-container">
 
 <Navbar/>
-<Carousel/>
+<Routes>
+
+
+<Route path="/" element={<Home/>} />
+<Route path="/inst" element={<Institucional/>} />
+</Routes>
 <Footer/>
+
    
     </main>
   );

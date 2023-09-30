@@ -1,0 +1,237 @@
+@import url("react-slideshow-image/dist/styles.css"); 
+
+.inst-cont{
+    height: 140vw;
+    background-color: rgb(205, 205, 223);
+    margin-top: 9.5vw;
+}
+
+
+.inst-section{
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+}
+.autoridades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6vw 2vw ;
+    border : 2px solid rgb(71, 167, 199);
+    border-radius: 5px;
+    height: 88vw;
+    width: 20vw;
+
+}
+.titulo{
+    width: 20vw;
+    height: 5vw;
+    background-color: rgb(71, 167, 199);
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: bold;
+ 
+  
+    margin: auto;
+}
+.titulo h2 {
+  margin: auto;
+    padding-top: 1vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+
+ 
+}
+.presidente{
+    border: 1px solid rgb(71, 167, 199);
+    width: 20vw;
+    height: 8vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 5px;
+
+
+}
+.presidente h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin:1vw 0;
+    padding:  0;
+    text-decoration: underline;
+}
+.presidente p {
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 18vw;
+  
+    text-align: center;
+
+   
+}
+.sec-general{
+    border: 1px solid rgb(71, 167, 199);
+    width: 20vw;
+    height: 8vw;
+    margin: 0 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+
+}
+.sec-general h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1vw 0;
+    padding: 0;
+    text-decoration: underline;
+}
+.sec-general p {
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    width: 18vw;
+    text-align: center;
+
+   
+}
+.director-aef{
+    border: 1px solid rgb(71, 167, 199);
+    width: 20vw;
+    height: 21vw;
+    margin: 0  1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.director-aef h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1.3vw 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.director-aef p {
+    width: 18vw;
+
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0.2vw 0;
+    padding: 0;
+    text-align: center;
+}
+
+.vocales-sup{
+    border: 1px solid rgb(71, 167, 199);
+    width: 20vw;
+    height: 14vw;
+    margin:0 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 5px;
+
+}
+.vocales-sup h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1.6vw 0;
+    padding: 0;
+    text-decoration: underline;
+}
+.vocales-sup p {
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    width: 18vw;
+    text-align: center;
+
+   
+}
+.fiscalizadora {
+    border: 1px solid rgb(71, 167, 199);
+    width: 20vw;
+    height: 16vw;
+    margin: 0 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+  
+    border-radius: 5px;
+
+}
+.fiscalizadora h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1vw 0;
+    padding: 0;
+    text-decoration: underline;
+}
+.fiscalizadora h5 {
+    font-size: 1.4vw;
+    font-weight: 600;
+    margin: 1vw 0;
+    padding: 0;
+    text-decoration: underline;
+}
+.fiscalizadora p {
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    width: 18vw;
+    text-align: center;
+
+   
+}
+.suplentes{
+
+    border: 1px solid rgb(71, 167, 199);
+    width: 20vw;
+    height: 16vw;
+    margin:0  1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+  
+    border-radius: 5px;
+}
+.suplentes h3{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin:2.2vw 0;
+    padding: 0;
+}
+.suplentes p {
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    width: 18vw;
+    text-align: center;
+
+}

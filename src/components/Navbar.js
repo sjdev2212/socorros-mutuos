@@ -36,36 +36,35 @@ const Navbar = () => {
               <img src={isOpen ? close : menu} alt="BTNS" />
             </button>
           </div>
-          <ul className={ isOpen ?  "ul-list-mobile" : " ul-closed" }>
+          <ul className={isOpen ? "ul-list-mobile" : " ul-closed"}>
             <li className="item-list-mobile">
               <Link className="mobile-link" to="/">
                 Inicio
               </Link>
             </li>
             <li className="item-list-mobile">
-             <Link className="mobile-link">Institucional</Link>
+              <Link  className="mobile-link"  to="/inst">
+                Institucional
+              </Link>
             </li>
             <li className="item-list-mobile">Servicios</li>
             <li className="item-list-mobile">
-            <Link className="mobile-link">Contactarse</Link>
+              <Link className="mobile-link">Contactarse</Link>
             </li>
             <li className="item-list-mobile">
-             <Link className="mobile-link">Preguntas</Link>
+              <Link className="mobile-link">Preguntas</Link>
             </li>
             <li className="item-list-mobile">
-             <Link className="mobile-link">Novedades</Link>
+              <Link className="mobile-link">Novedades</Link>
             </li>
 
             <li className="item-list-mobile">
-           
               <Link className="mobile-link">Sitios de Interes</Link>
             </li>
             <li className="item-list-mobile">
-         
               <Link className="mobile-link">Como Asociarse</Link>
             </li>
             <li className="item-list-mobile">
-              
               <Link className="mobile-link">De interes para el Socio</Link>
             </li>
           </ul>
@@ -73,37 +72,28 @@ const Navbar = () => {
 
         <ul className="navbar-links">
           <li>
-           
             <Link className="item-list" to="/">
               Inicio
             </Link>
           </li>
           <li>
-           
-            <Link className="item-list">Institucional</Link>
+            <Link to="/inst" className="item-list">Institucional</Link>
           </li>
           <li className="drop">
             <Dropdowns />
           </li>
           <li>
-         
             <Link className="item-list">Contactarse</Link>
           </li>
           <li>
-       
             <Link className="item-list">Preguntas</Link>
           </li>
-          < li className="item-list">
-
-          Novedades
-            </li>
+          <li className="item-list">Novedades</li>
 
           <li>
-         
             <Link className="item-list">Sitios de Interes</Link>
           </li>
           <li>
-          
             <Link className="item-list">Como Asociarse</Link>
           </li>
 
