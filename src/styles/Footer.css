@@ -402,10 +402,12 @@ justify-items: center;
     }
     .phone {
         width: 8vw;
+        margin-top: 2vw;
        
     }
     .google {
         width: 6.5vw;
+        margin-top: 3vw;
        
     }
     .instagram {

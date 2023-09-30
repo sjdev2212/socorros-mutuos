@@ -139,7 +139,7 @@ ul {
   .ul-list-mobile {
     display: flex;
     flex-direction: column;
-    height: 173.5vw;
+    height: 200vw;
     width: 100%;
     position: absolute;
     top: 22vw;

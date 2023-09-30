@@ -13,7 +13,7 @@ const Dropdown2 = () => {
   }
 
 
-  const dropOpen = "drop-open"
+  const dropOpen = "drop-open-2"
   const dropClosed = "drop-closed"
   return (
     <div >
