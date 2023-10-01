@@ -359,7 +359,7 @@
         margin: 6vw 2vw ;
         border : 2px solid rgb(71 167 199);
         border-radius: 5px;
-        height: 160vw;
+        height: 170vw;
         width: 45vw;
     
     }
@@ -452,7 +452,7 @@
     .director-aef{
         border: 1px solid rgb(71 167 199);
         width: 45vw;
-        height: 40vw;
+        height: 48vw;
         margin: 0  1vw;
         display: flex;
         flex-direction: column;
