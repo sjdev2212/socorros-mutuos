@@ -38,16 +38,21 @@ const Navbar = () => {
           </div>
           <ul className={isOpen ? "ul-list-mobile" : " ul-closed"}>
             <li className="item-list-mobile">
-              <Link className="mobile-link" to="/">
+              <Link onClick={toggleClosed} className="mobile-link" to="/">
                 Inicio
               </Link>
             </li>
             <li className="item-list-mobile">
-              <Link  className="mobile-link"  to="/inst">
+              <Link  onClick={toggleClosed} className="mobile-link"  to="/inst">
                 Institucional
               </Link>
             </li>
-            <li className="item-list-mobile">Servicios</li>
+            <li  className="item-list-mobile">
+              <Link className="mobile-link" onClick={toggleClosed}>
+              
+              Servicios
+              </Link>
+              </li>
             <li className="item-list-mobile">
               <Link className="mobile-link">Contactarse</Link>
             </li>
