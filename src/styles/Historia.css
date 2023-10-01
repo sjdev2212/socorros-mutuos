@@ -1,0 +1,59 @@
+.historia-detalle{
+    background-color: #F2F2F2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.primera-lista{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+
+
+}
+.primera-lista li{
+    margin:1vw 0;
+    padding: 0;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+.ultimo-p{
+    font-size: 1.1vw;
+    font-weight: 300;
+    margin: 1vw 0;
+    color: rgb(78, 75, 75);
+}
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(78, 75, 75);
+    margin: 1vw 0;
+}
+
+.btn-historia{
+    background-color: #F2F2F2;
+    border: none;
+    outline: none;
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: rgb(78, 75, 75);
+    cursor: pointer;
+    margin: 1vw 0;
+    padding: 0;
+    
+    
+}
+.btn-historia a{
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+    font-size: 1.1vw;
+}
+.btn-historia a:hover{
+    color: rgb(14, 158, 33);
+    scale: 1.1;
+   
+}

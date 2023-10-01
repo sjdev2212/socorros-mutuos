@@ -111,7 +111,15 @@ const Carousel = () => {
   return (
     <main className="main-carousel">
       <div className="slide-container-desk">
-        <Slide>
+        <Slide 
+          easing="ease"
+          duration={3000}
+          transitionDuration={1000}
+          infinite={true}
+          indicators={true}
+          arrows={false}
+          pauseOnHover={true}
+        >
           {slideImages.map((slideImage, index) => (
             <div key={index}>
               <div
