@@ -2,7 +2,7 @@
 
 .inst-cont{
     height: 140vw;
-    background-color: rgb(205, 205, 223);
+    background-color: rgb(205 205 223);
     margin-top: 9.5vw;
 }
 
@@ -12,29 +12,30 @@
     grid-template-columns: 30% 70%;
    
 }
+
 .autoridades{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 6vw 2vw ;
-    border : 2px solid rgb(71, 167, 199);
+    border : 2px solid rgb(71 167 199);
     border-radius: 5px;
     height: 88vw;
     width: 20vw;
 
 }
+
 .titulo{
     width: 20vw;
     height: 5vw;
-    background-color: rgb(71, 167, 199);
-    color: rgb(255, 255, 255);
+    background-color: rgb(71 167 199);
+    color: rgb(255 255 255);
     font-size: 1.5vw;
     font-weight: bold;
- 
-  
     margin: auto;
 }
+
 .titulo h2 {
   margin: auto;
     padding-top: 1vw;
@@ -43,8 +44,9 @@
 
  
 }
+
 .presidente{
-    border: 1px solid rgb(71, 167, 199);
+    border: 1px solid rgb(71 167 199);
     width: 20vw;
     height: 8vw;
     margin: 0 auto;
@@ -52,12 +54,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
-
+    background-color: rgb(255 255 255);
     border-radius: 5px;
 
 
 }
+
 .presidente h3{
     font-size: 1.5vw;
     font-weight: bold;
@@ -65,18 +67,19 @@
     padding:  0;
     text-decoration: underline;
 }
+
 .presidente p {
     font-size: 1vw;
     font-weight: 500;
     margin: 0 auto;
     width: 18vw;
-  
     text-align: center;
 
    
 }
+
 .sec-general{
-    border: 1px solid rgb(71, 167, 199);
+    border: 1px solid rgb(71 167 199);
     width: 20vw;
     height: 8vw;
     margin: 0 1vw;
@@ -84,11 +87,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255);
     border-radius: 5px;
 
 
 }
+
 .sec-general h3{
     font-size: 1.5vw;
     font-weight: bold;
@@ -96,6 +100,7 @@
     padding: 0;
     text-decoration: underline;
 }
+
 .sec-general p {
     font-size: 1vw;
     font-weight: 500;
@@ -106,8 +111,9 @@
 
    
 }
+
 .director-aef{
-    border: 1px solid rgb(71, 167, 199);
+    border: 1px solid rgb(71 167 199);
     width: 20vw;
     height: 21vw;
     margin: 0  1vw;
@@ -115,10 +121,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255);
     border-radius: 5px;
 
 }
+
 .director-aef h3{
     font-size: 1.5vw;
     font-weight: bold;
@@ -129,7 +136,6 @@
 
 .director-aef p {
     width: 18vw;
-
     font-size: 1vw;
     font-weight: 500;
     margin: 0.2vw 0;
@@ -138,7 +144,7 @@
 }
 
 .vocales-sup{
-    border: 1px solid rgb(71, 167, 199);
+    border: 1px solid rgb(71 167 199);
     width: 20vw;
     height: 14vw;
     margin:0 1vw;
@@ -146,11 +152,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
-
+    background-color: rgb(255 255 255);
     border-radius: 5px;
 
 }
+
 .vocales-sup h3{
     font-size: 1.5vw;
     font-weight: bold;
@@ -158,6 +164,7 @@
     padding: 0;
     text-decoration: underline;
 }
+
 .vocales-sup p {
     font-size: 1vw;
     font-weight: 500;
@@ -168,8 +175,9 @@
 
    
 }
+
 .fiscalizadora {
-    border: 1px solid rgb(71, 167, 199);
+    border: 1px solid rgb(71 167 199);
     width: 20vw;
     height: 16vw;
     margin: 0 1vw;
@@ -177,11 +185,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
-  
+    background-color: rgb(255 255 255);
     border-radius: 5px;
 
 }
+
 .fiscalizadora h3{
     font-size: 1.5vw;
     font-weight: bold;
@@ -189,6 +197,7 @@
     padding: 0;
     text-decoration: underline;
 }
+
 .fiscalizadora h5 {
     font-size: 1.4vw;
     font-weight: 600;
@@ -196,6 +205,7 @@
     padding: 0;
     text-decoration: underline;
 }
+
 .fiscalizadora p {
     font-size: 1vw;
     font-weight: 500;
@@ -206,9 +216,9 @@
 
    
 }
-.suplentes{
 
-    border: 1px solid rgb(71, 167, 199);
+.suplentes{
+    border: 1px solid rgb(71 167 199);
     width: 20vw;
     height: 16vw;
     margin:0  1vw;
@@ -216,16 +226,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
-  
+    background-color: rgb(255 255 255);
     border-radius: 5px;
 }
+
 .suplentes h3{
     font-size: 1.5vw;
     font-weight: bold;
     margin:2.2vw 0;
     padding: 0;
 }
+
 .suplentes p {
     font-size: 1vw;
     font-weight: 500;
@@ -237,10 +248,9 @@
 }
 
 .historia{
-
-
     margin : 6vw 2vw;
 }
+
 .historia h1{
     font-size: 2vw;
     font-weight: bold;
@@ -250,6 +260,7 @@
     text-align: flex-start;
 
 }
+
 .historia p{
     font-size: 1vw;
     font-weight: 500;
@@ -257,38 +268,43 @@
 
  
 }
+
 .leer-mas{
     font-size: 1.3vw;
     font-weight: 500;
     margin: 1vw 0;
     padding: 0;
     text-align: flex-start;
-    color: rgb(17, 97, 124);
+    color: rgb(17 97 124);
     background-color: transparent;
-    border: 1px solid rgb(18, 177, 230);
+    border: 1px solid rgb(18 177 230);
     cursor: pointer;
     border-radius: 10px;
     width: 10vw;
     height: 3vw;
 }
+
 .leer-mas:hover{
-    background-color: rgb(18, 177, 230);
-    color: rgb(255, 255, 255);
+    background-color: rgb(18 177 230);
+    color: rgb(255 255 255);
 }
+
 .inst-section-mobile{
     display: none;
 }
-/* =============== MOBILE===============*/
-@media screen and (width <= 768px) {
 
+/* =============== MOBILE=============== */
+@media screen and (width <= 768px) {
     .inst-section{
         display: none;
     }
+
     .inst-cont{
-        height: 320VW;
-        background-color: rgb(205, 205, 223);
+        height: 380VW;
+        background-color: rgb(205 205 223);
         margin-top: 9.5vw;
     }
+
     .inst-section-mobile{
         display: flex;
         flex-direction: column;
@@ -296,6 +312,7 @@
         justify-content: center;
         margin: 6vw 2vw;
     }
+
     .historia h1{
         font-size: 4vw;
         font-weight: bold;
@@ -305,6 +322,7 @@
         text-align: flex-start;
     
     }
+
     .historia p{
         font-size: 2vw;
         font-weight: 500;
@@ -312,109 +330,116 @@
     
      
     }
+
     .leer-mas{
         font-size: 2vw;
         font-weight: 500;
         margin: 1vw 0;
         padding: 0;
         text-align: flex-start;
-        color: rgb(17, 97, 124);
+        color: rgb(17 97 124);
         background-color: transparent;
-        border: 1px solid rgb(18, 177, 230);
+        border: 1px solid rgb(18 177 230);
         cursor: pointer;
         border-radius: 10px;
         width: 14vw;
         height: 5vw;
     }
+
     .leer-mas:hover{
-        background-color: rgb(18, 177, 230);
-        color: rgb(255, 255, 255);
+        background-color: rgb(18 177 230);
+        color: rgb(255 255 255);
     }
+
     .autoridades{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 6vw 2vw ;
-        border : 2px solid rgb(71, 167, 199);
+        border : 2px solid rgb(71 167 199);
         border-radius: 5px;
-        height: 120vw;
-        width: 30vw;
+        height: 160vw;
+        width: 45vw;
     
     }
+
     .titulo{
-        width: 30vw;
+        width: 45vw;
         height: 12vw;
-        background-color: rgb(71, 167, 199);
-        color: rgb(255, 255, 255);
-        font-size: 2vw;
+        background-color: rgb(71 167 199);
+        color: rgb(255 255 255);
+        font-size: 2.5vw;
         font-weight: bold;
-     
-      
         margin:  auto;
     }
+
     .titulo h2 {
       margin: auto;
         padding-top: 1vw;
-        padding-left: 8vw;
+        padding-left: 14vw;
         
      
     }
+
     .presidente{
-        border: 1px solid rgb(71, 167, 199);
-        width: 30vw;
-        height: 15vw;
+        border: 1px solid rgb(71 167 199);
+        width: 45vw;
+        height: 20vw;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgb(255, 255, 255);
-    
+        background-color: rgb(255 255 255);
         border-radius: 5px;
     
     
     }
+
     .presidente h3{
-        font-size: 2.5vw;
+        font-size: 3.2vw;
         font-weight: bold;
         margin:1.3vw 0;
         padding:  0;
         text-decoration: underline;
     }
+
     .presidente p {
-        font-size: 2vw;
+        font-size: 2.6vw;
         font-weight: 500;
         margin: 0 auto;
         width: 28vw;
-      
         text-align: center;
     
        
     }
+
     .sec-general{
-        border: 1px solid rgb(71, 167, 199);
-        width: 30vw;
-        height: 12vw;
+        border: 1px solid rgb(71 167 199);
+        width: 45vw;
+        height: 15vw;
         margin: 0 1vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255 255 255);
         border-radius: 5px;
     
     
     }
+
     .sec-general h3{
-        font-size: 2.5vw;
+        font-size: 3.2vw;
         font-weight: bold;
         margin: 1.3vw 0;
         padding: 0;
         text-decoration: underline;
     }
+
     .sec-general p {
-        font-size: 2vw;
+        font-size: 2.6vw;
         font-weight: 500;
         margin: 0;
         padding: 0;
@@ -423,21 +448,23 @@
     
        
     }
+
     .director-aef{
-        border: 1px solid rgb(71, 167, 199);
-        width: 30vw;
-        height: 35vw;
+        border: 1px solid rgb(71 167 199);
+        width: 45vw;
+        height: 40vw;
         margin: 0  1vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255 255 255);
         border-radius: 5px;
     
     }
+
     .director-aef h3{
-        font-size: 2.5vw;
+        font-size: 3.2vw;
         font-weight: bold;
         margin: 1.5vw 0;
         padding: 0;
@@ -446,8 +473,7 @@
     
     .director-aef p {
         width: 28vw;
-    
-        font-size: 2vw;
+        font-size: 2.6vw;
         font-weight: 500;
         margin: 0.5vw 0;
         padding: 0;
@@ -455,28 +481,29 @@
     }
     
     .vocales-sup{
-        border: 1px solid rgb(71, 167, 199);
-        width: 30vw;
-        height: 18vw;
+        border: 1px solid rgb(71 167 199);
+        width: 45vw;
+        height: 24vw;
         margin:0 1vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgb(255, 255, 255);
-    
+        background-color: rgb(255 255 255);
         border-radius: 5px;
     
     }
+
     .vocales-sup h3{
-        font-size: 2.5vw;
+        font-size: 3.2vw;
         font-weight: bold;
         margin: 1.8vw 0;
         padding: 0;
         text-decoration: underline;
     }
+
     .vocales-sup p {
-        font-size: 2vw;
+        font-size: 2.4vw;
         font-weight: 500;
         margin: 0;
         padding: 0;
@@ -485,36 +512,40 @@
     
        
     }
+
     .fiscalizadora {
-        border: 1px solid rgb(71, 167, 199);
-        width: 30vw;
-        height: 20vw;
+        border: 1px solid rgb(71 167 199);
+        width: 45vw;
+        height: 38vw;
         margin: 0 1vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgb(255, 255, 255);
-      
+        justify-items: flex-start;
+        background-color: rgb(255 255 255);
         border-radius: 5px;
     
     }
+
     .fiscalizadora h3{
-        font-size: 2.5vw;
+        font-size: 3.2vw;
         font-weight: bold;
         margin: 1vw 0;
         padding: 0;
         text-decoration: underline;
     }
+
     .fiscalizadora h5 {
-        font-size: 2.3vw;
+        font-size: 2.4vw;
         font-weight: 600;
         margin: 1vw 0;
         padding: 0;
         text-decoration: underline;
     }
+
     .fiscalizadora p {
-        font-size: 2vw;
+        font-size: 2.3vw;
         font-weight: 500;
         margin: 0;
         padding: 0;
@@ -523,28 +554,29 @@
     
        
     }
+
     .suplentes{
-    
-        border: 1px solid rgb(71, 167, 199);
-        width: 30vw;
-        height: 20vw;
+        border: 1px solid rgb(71 167 199);
+        width: 45vw;
+        height: 25vw;
         margin:0  1vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgb(255, 255, 255);
-      
+        background-color: rgb(255 255 255);
         border-radius: 5px;
     }
+
     .suplentes h3{
-        font-size: 2.5vw;
+        font-size: 3.1vw;
         font-weight: bold;
         margin:2.2vw 0;
         padding: 0;
     }
+
     .suplentes p {
-        font-size: 2vw;
+        font-size: 2.3vw;
         font-weight: 500;
         margin: 0;
         padding: 0;

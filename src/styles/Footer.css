@@ -353,6 +353,7 @@ justify-items: center;
         margin-top: -1vw;
         margin-left: 1.3vw;
     }
+
     .contact{
         width: 100%;
         height: 130vw;
@@ -365,14 +366,13 @@ justify-items: center;
         
    
     }
+
     .contact ul {
-      
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         justify-items: center;
-      
         height: 140vw;
       
     
@@ -400,38 +400,40 @@ justify-items: center;
    
     
     }
+
     .phone {
         width: 8vw;
         margin-top: 2vw;
        
     }
+
     .google {
         width: 6.5vw;
         margin-top: 3vw;
        
     }
+
     .instagram {
         width: 12vw;
         height: 12vw;
         cursor: pointer;
     }
-    .face {
-        width: 2.9vw;
-        margin-top: 1.4vw;
-        cursor: pointer;
-    
-    }
+
+
+
     .face {
         width: 8vw;
         margin-top: 6vw;
         cursor: pointer;
     
     }
+
     .whats {
         width: 8vw;
         cursor: pointer;
     
     }
+
     .mail {
         width:  8vw;
         cursor: pointer;
