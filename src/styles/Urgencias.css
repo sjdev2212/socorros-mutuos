@@ -1,9 +1,9 @@
 .cont-urgencias{
-    border: 2px solid black;
+  
     width: 100%;
     height: 50vw;
     margin-top: 10vw;
-    background-color: rgb(223 223 223);
+    background-color: rgb(255, 251, 251);
 }
 
 .cont-urgencias h1{
@@ -18,7 +18,7 @@
 .divisor-urg{
     width: 100%;
     height: 1px;
-    background-color: rgb(184 173 173);
+    background-color: rgb(255, 246, 246);
     margin: 1vw 0;
 }
 
@@ -53,7 +53,7 @@
     
 
 .left-urg{
-    background-color: rgb(255 255 254);
+    background-color: rgb(245, 234, 234);
     height: auto;
     width: 100%;
     display: flex;
@@ -121,11 +121,11 @@
 
 @media screen and (width <= 768px) {
     .cont-urgencias{
-        border: 2px solid black;
+     
         width: 100%;
         height: 110vw;
-        margin-top: 20vw;
-        background-color: rgb(223 223 223);
+        margin-top: 28vw;
+        background-color: rgb(245, 231, 231);
     }
 
     .cont-urgencias h1{
@@ -146,7 +146,7 @@
     }
 
     .left-urg{
-        background-color: rgb(255 255 254);
+        background-color: rgb(255, 246, 246);
         height: auto;
         width: 100%;
         display: flex;
