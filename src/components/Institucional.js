@@ -59,7 +59,7 @@ const Institucional = () => {
   return (
     <main className="inst-cont" >
             
-      <div className="slide-container-desk">
+      <div className="slide-container-inst">
         <Slide 
             duration={3000}
             transitionDuration={1000}

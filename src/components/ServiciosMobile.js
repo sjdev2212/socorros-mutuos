@@ -14,7 +14,7 @@ const ServiciosMobile = () => {
                 </Link>
             </li>
             <li>
-                <Link className="serv-link" to="/medicos">
+                <Link className="serv-link" to="/nuevo-plan">
                 Plan de Salud Medicos Perifericos
                 </Link>
             </li>

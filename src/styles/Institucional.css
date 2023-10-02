@@ -1,8 +1,24 @@
 @import url("react-slideshow-image/dist/styles.css"); 
+@keyframes appear-from-above {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    
+
+.slide-container-inst{
+    animation: appear-from-above 1s;
+}
 
 .inst-cont{
     height: 140vw;
-    background-color: rgb(205 205 223);
+    background-color:whitesmoke;
     margin-top: 9.5vw;
 }
 
@@ -12,6 +28,18 @@
     grid-template-columns: 30% 70%;
    
 }
+ @keyframes appear-from-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+ }
 
 .autoridades{
     display: flex;
@@ -23,6 +51,7 @@
     border-radius: 5px;
     height: 88vw;
     width: 20vw;
+    animation: appear-from-left 1s;
 
 }
 
@@ -247,7 +276,19 @@
 
 }
 
+@keyframes appear-from-right{
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 .historia{
+    animation: appear-from-right 1s;
     margin : 6vw 2vw;
 }
 
@@ -301,7 +342,7 @@
 
     .inst-cont{
         height: 380VW;
-        background-color: rgb(205 205 223);
+        background-color: whitesmoke;
         margin-top: 9.5vw;
     }
 

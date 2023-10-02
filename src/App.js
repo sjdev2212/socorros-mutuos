@@ -8,6 +8,7 @@ import Urgencias from './components/Urgencias';
 import Footer from './components/Footer';
 import Institucional from './components/Institucional';
 import ServiciosMobile from './components/ServiciosMobile';
+import NuevoPlanSalud from './components/NuevoPlanSalud';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 <Route path="/historia" element={<Historia/>} />
 <Route path="/urgencias" element={<Urgencias/>} />
 <Route path="/servicios-mob" element={<ServiciosMobile/>} />
+<Route path="/nuevo-plan" element={<NuevoPlanSalud/>} />
 </Routes>
 <Footer/>
 
