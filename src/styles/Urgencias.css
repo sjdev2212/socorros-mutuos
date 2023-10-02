@@ -3,7 +3,7 @@
     width: 100%;
     height: 50vw;
     margin-top: 10vw;
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(250, 250, 250);
 }
 
 .cont-urgencias h1{
@@ -125,7 +125,7 @@
         width: 100%;
         height: 110vw;
         margin-top: 28vw;
-        background-color: rgb(245, 231, 231);
+        background-color: rgb(250, 250, 250);
     }
 
     .cont-urgencias h1{
@@ -146,7 +146,7 @@
     }
 
     .left-urg{
-        background-color: rgb(255, 246, 246);
+      
         height: auto;
         width: 100%;
         display: flex;
@@ -187,6 +187,8 @@
 
       .ambulancia{
         width: 80vw;
+        background-color: whitesmoke;
+        
       }
 
 
