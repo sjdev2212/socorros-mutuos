@@ -1,5 +1,6 @@
 // src/components/Dropdown.js
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Dropdown.css'
 
 
@@ -25,7 +26,12 @@ const dropClosed = "drop-closed"
 
       <div >
         < ul onMouseLeave={toggleClosed} className={isOpen ? dropOpen : dropClosed}>
-          <li className="drop-item">Servicio de urgencias</li>
+          <li className="drop-item">
+            <Link className="drop-link" to="/urgencias">
+            Servicio de urgencias
+            </Link>
+            </li>
+            
           <li className="drop-item">Plan de Salud Medicos Perifericos</li>
           <li className="drop-item">Convenio "GERDANA SALUD"</li>
           <li className="drop-item">Servicios de Sepelios</li>
