@@ -4,6 +4,7 @@
     margin: auto;
 
 }
+
 .servicios-mob ul{
     display: flex;
     flex-direction: column;
@@ -21,14 +22,14 @@
     justify-content: center;
     height: 20vw;
     width: 70vw;
-    background-color: rgb(255, 255, 254);
-  
+    background-color: rgb(255 255 254);
     font-size: 3vw;
-    border: 1px solid rgb(15, 172, 15);
+    border: 1px solid rgb(15 172 15);
     text-decoration: none;
-    color: rgb(21, 145, 5);
+    color: rgb(21 145 5);
 }
+
 .servicios-mob a:hover{
     color: white;
-    background-color:  rgb(21, 145, 5);;
+    background-color:  rgb(21 145 5);;
 }
