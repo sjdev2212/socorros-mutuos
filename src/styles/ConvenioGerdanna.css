@@ -1,0 +1,193 @@
+.convenio-cont{
+height: auto;
+margin-top: 9.5vw;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+@keyframes appear-from-left{
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+    
+
+.convenio-left{
+    height: 20vw;
+    animation: appear-from-left 1s;
+  
+}
+
+.video{
+    width: 80%;
+    height: 90%;
+    margin: 3vw 5vw;
+}
+
+.cartilla-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.cartilla-div h2{
+    font-size: 1.8vw;
+    font-weight: bold;
+
+}
+
+.cartilla-div a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 400;
+    
+}
+
+.cartilla-div a:hover{
+    color: rgb(22 134 0);
+    scale: 1.1;
+    transition: 1s;
+}
+
+@keyframes appear-from-right{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+    
+
+    .convenio-right{
+        animation: appear-from-right 1s;
+        
+    }
+
+    .convenio-header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1vw ;
+
+    }
+
+    .convenio-logo{
+        width: 6vw;
+    }
+
+    .convenio-gerdanna{
+        width: 12vw;
+        height: 6vw;
+    }
+
+    .convenio-header  h2{
+        font-size: 1.5vw;
+        font-weight: bold;
+        margin: auto;
+      
+
+    }
+
+    .convenio-text p{
+        font-size: 1.2vw;
+        font-weight: 300;
+        margin: 1vw;
+        color: #353333;
+    }
+
+    .convenio-text{
+        margin: 1vw;
+    }
+
+    .convenio-text h4{
+        font-size: 1.3vw;
+        font-weight: bold;
+        margin: 1vw;
+        color: #353333;
+    }
+
+    /* --------------MOBILE----------------- */
+
+    @media screen and (width <= 768px) {
+        .convenio-cont{
+            height: auto;
+            margin-top: 25vw;
+            display: flex;
+            flex-direction: column;
+            }
+            .video{
+                width: 70%;
+                height: 20vw;
+                margin: 3vw 14vw;
+            }
+            .cartilla-div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1vw;
+            }
+            .convenio-left{
+                height: 60vw;
+                animation: appear-from-left 1s;
+                margin-bottom: 2vw;
+              
+            }
+            .cartilla-div h2{
+                font-size: 3vw;
+                font-weight: bold;
+            
+            }
+            
+            .cartilla-div a{
+                text-decoration: none;
+                color: black;
+                font-size: 2.4vw;
+                font-weight: 400;
+                
+            }
+            .convenio-right{
+                animation: appear-from-right 1s;
+                height: auto;
+                margin-bottom: 2vw;
+                border-top: 1px solid #353333;
+                
+            }
+            .convenio-logo{
+                width: 14vw;
+            }
+            .convenio-gerdanna{
+                width: 20vw;
+                height: 14vw;
+            }
+            .convenio-header  h2{
+                font-size: 3.2vw;
+                font-weight: bold;
+                margin: auto;
+              
+        
+            }
+            .convenio-text p{
+                font-size: 2.8vw;
+                font-weight: 300;
+                margin: 1vw;
+                color: #353333;
+            }
+        
+        
+            
+            
+    }

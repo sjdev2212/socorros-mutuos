@@ -1,0 +1,16 @@
+@keyframes appear-from-above{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    
+
+.home-container{
+    animation: appear-from-above 1s;
+}

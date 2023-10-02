@@ -1,9 +1,10 @@
 import React from 'react'
 import Carousel from './Carousel'
+import "../styles/Home.css"
 
 const Home = () => {
   return (
-    <main className="main-container">
+    <main className="home-container">
 
 
 <Carousel/>

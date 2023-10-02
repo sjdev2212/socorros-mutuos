@@ -37,7 +37,12 @@ const dropClosed = "drop-closed"
             Plan de Salud Medicos Perifericos
             </Link>
             </li>
-          <li className="drop-item">Convenio "GERDANA SALUD"</li>
+          <li className="drop-item">
+            <Link className="drop-link" to="/convenio-gerdanna">
+            Convenio "GERDANA SALUD"
+            </Link>
+            
+            </li>
           <li className="drop-item">Servicios de Sepelios</li>
           <li className="drop-item">Panteones Propios</li>
           <li className="drop-item">Subsidios</li>

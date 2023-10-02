@@ -20,7 +20,7 @@ const ServiciosMobile = () => {
             </li>
             
             <li>
-                <Link className="serv-link" to="/odontologos">
+                <Link className="serv-link" to="/convenio-gerdanna">
                 Convenio "GERDANA SALUD"
                 </Link>
                 

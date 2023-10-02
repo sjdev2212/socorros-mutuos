@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Institucional from './components/Institucional';
 import ServiciosMobile from './components/ServiciosMobile';
 import NuevoPlanSalud from './components/NuevoPlanSalud';
+import ConvenioGerdanna from './components/ConvenioGerdanna';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 <Route path="/urgencias" element={<Urgencias/>} />
 <Route path="/servicios-mob" element={<ServiciosMobile/>} />
 <Route path="/nuevo-plan" element={<NuevoPlanSalud/>} />
+<Route path="/convenio-gerdanna" element={<ConvenioGerdanna/>} />
 </Routes>
 <Footer/>
 
