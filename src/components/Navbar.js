@@ -48,7 +48,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li  className="item-list-mobile">
-              <Link className="mobile-link" onClick={toggleClosed}>
+              <Link className="mobile-link" to="/servicios-mob" onClick={toggleClosed}>
               
               Servicios
               </Link>
