@@ -51,6 +51,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 3vw;
    border-bottom: 1px solid rgb(201, 192, 192);
    animation : 1s ease-out 0s 1 slide-in-from-right;
 }
@@ -72,11 +73,11 @@
     text-align: center;
 } 
 
-.slide-container-inst{
+.slide-container-propios{
     width: 60vw;
     height: 50vw;
     position: relative;
-    left: 8vw;
+    left: 10vw;
     top: 6vw;
   
     
@@ -133,11 +134,11 @@
         color: rgb(128, 124, 124);
         text-align: center;
     } 
-    .slide-container-inst{
+    .slide-container-propios{
         width: 60vw;
         height: 40vw;
         position: relative;
-        left: 20vw;
+        left: 23vw;
         top: 0;
       
         
