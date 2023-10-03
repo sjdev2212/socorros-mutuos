@@ -48,7 +48,11 @@ const dropClosed = "drop-closed"
           Servicios de Sepelios
           </Link>
           </li>
-          <li className="drop-item">Panteones Propios</li>
+          <li className="drop-item">
+          <Link className="drop-link" to="/panteones-propios">
+            Panteones Propios
+            </Link>
+            </li>
           <li className="drop-item">Subsidios</li>
           <li className="drop-item">Convenios</li>
         </ul>

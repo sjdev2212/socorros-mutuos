@@ -11,6 +11,7 @@ import ServiciosMobile from './components/ServiciosMobile';
 import NuevoPlanSalud from './components/NuevoPlanSalud';
 import ConvenioGerdanna from './components/ConvenioGerdanna';
 import Sepelios from './components/Sepelios';
+import PanteonesPropios from './components/PanteonesPropios';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 <Route path="/nuevo-plan" element={<NuevoPlanSalud/>} />
 <Route path="/convenio-gerdanna" element={<ConvenioGerdanna/>} />
 <Route path="/sepelios" element={<Sepelios/>} />
+<Route path="/panteones-propios" element={<PanteonesPropios/>} />
 </Routes>
 <Footer/>
 
