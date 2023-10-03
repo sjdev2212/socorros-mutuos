@@ -41,7 +41,7 @@ const ServiciosMobile = () => {
                 </Link>
             </li>
             <li>
-                <Link className="serv-link" to="/farmacias">
+                <Link className="serv-link" to="/convenio">
                 Convenios
                 </Link>
             </li>
