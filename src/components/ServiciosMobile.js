@@ -26,7 +26,7 @@ const ServiciosMobile = () => {
                 
             </li>
             <li>
-                <Link className="serv-link" to="/farmacias">
+                <Link className="serv-link" to="/sepelios">
                 Servicios de Sepelios
                 </Link>
             </li>

@@ -21,12 +21,12 @@ const ConvenioGerdanna = () => {
         CARTILLAS DE PRESTADORES DE GERDANNA SALUD
         </h2>
         <a href="http://www.gerdanna.com.ar/wp-content/uploads/2023/08/Gral.-Centro-Medico-C.A.B.A.-Y-G.B.A.pdf"
-        target='_blank'
+        target='_blank' rel="noreferrer"
         >
         CENTRO MEDICO CABA Y GRAN BUENOS AIRES
         </a>
         <a   href="http://www.gerdanna.com.ar/wp-content/uploads/2023/06/GRAL-Centro-Medico-Interior.pdf"
-        target='_blank'
+        target='_blank' rel="noreferrer"
          >
         CENTRO MEDICO INTERIOR
         </a>
@@ -37,11 +37,11 @@ const ConvenioGerdanna = () => {
     <header
     className="convenio-header"
     >
-        <img className="convenio-logo" src={logo}></img>
+        <img className="convenio-logo" alt="logo-socorros" src={logo}></img>
         <h2>
         CONVENIO GERDANNA SALUD
         </h2>
-        <img  className="convenio-gerdanna"src={gerdanna}></img>
+        <img   className="convenio-gerdanna"src={gerdanna} alt="logo-gerdanna"></img>
         </header>
         <div className="convenio-text">
             <p>
@@ -73,7 +73,7 @@ A partir del año 2020, el Asociado cuenta, para sus hijos menores desde el año
 Los pedidos de atención médica se efectuarán telefónicamente a los siguientes Números: 011-4959-9595 y desde el interior del país al 0810-666-6350
 </p>
 <p>
-Ya se encuentran en nuestra Nueva Sede (ubicada en Piedras 77 5to “B” Ciudad Autónoma de Buenos Aires) las credenciales de Gerdanna Salud, que le será solicitadas para su mejor atención. Puede retirarlas personalmente o solicitar que le sean envidas a su domicilio si vive a mas de 10 km de distancia de la Sede.
+Ya se encuentran en nuestra Nueva Sede (ubicada en Piedras 77 5to “B” Ciudad Autónoma de Buenos Aires) las credenciales de Gerdanna Salud, que le serán solicitadas para su mejor atención. Puede retirarlas personalmente o solicitar que le sean enviadas a su domicilio si vive a mas de 10 km de distancia de la Sede.
 </p>
         </div>
 
