@@ -114,9 +114,6 @@ grid-template-columns: 56% 44%;
     display: flex;
     flex-direction: column;
     margin-top: 38vw;
-  ;
-  
-
 }
 
 .panteones-h4 {
@@ -188,7 +185,10 @@ grid-template-columns: 56% 44%;
         width: 94.9vw;
     
 }
+.lista-right-mobile{
+ display: none;
 
+}
 .img-right{
     width: 100%;
     height: 100%;
@@ -251,4 +251,179 @@ grid-template-columns: 56% 44%;
     color: #807f7f;
     text-align: justify;
     
+}
+
+/*-----------------------MOBILE-----------------------*/    
+
+@media screen and (width <= 768px) {
+    .main-sep{
+        height: auto;
+    }
+    .sepelios-cont{
+        margin-top: 25vw;
+        height: auto;
+        border: 2px solid #918d8d;
+        box-shadow: 0 0 5px 0 rgb(0 0 0 / 75%);
+       display: flex;
+       flex-direction: column;
+            
+        }
+        .sepelios-left{
+            height:100vw;
+         
+            border-radius: 10px;
+            animation: appear-from-left 1s;
+        }
+        
+        .sepelios-left h3{
+            font-size: 5vw;
+            margin: 0;
+            padding: 0;
+          margin: 1vw 40vw;
+        }
+        
+        .sepelios-left p{
+            font-size: 2.8vw;
+            margin: 0;
+            padding: 0;
+            margin-left: 1vw;
+            margin-top: 1vw;
+            color: rgb(116 107 107);
+            font-weight: 400;
+        }
+        
+        .sepelios-left li{
+            font-size: 2.5vw;
+            margin: 0;
+            padding: 0;
+            margin-left: 1vw;
+            margin-top: 1vw;
+            color: rgb(116 107 107);
+            font-weight: 400;
+        }
+        .norte{
+            height: 70vw;
+            width: 90vw;
+            margin-top: 110vw;
+            margin-left: 4vw;
+            border: 1px solid rgb(177 165 165);
+            border-radius: 5px;
+
+        }
+        .panteones{
+            height:350vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;  
+            width: 95%;
+             margin: auto;
+            margin-top: 1vw;
+            
+         
+        }
+        .panteones-title{
+         
+            position: relative;
+            top: -105vw;
+            font-size: 4.5vw;
+            font-weight: 600;
+            color: #6d6b6b;
+            text-align: center;
+        }
+        .panteones-h4 {
+            position: relative;
+            top: -100vw;
+            font-size: 3.8vw;
+            font-weight: 600;
+            color: #6d6b6b;
+            text-align: center;
+        
+        }
+        .lista-left{
+           display: flex;
+              flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               
+        }
+        .left-h3{
+            font-size: 3.2vw;
+            font-weight: 600;
+            color: #6d6b6b;
+        
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+        .pilar{
+            width: 90vw;
+            height: 60vw;
+            border: 1px solid rgb(177 165 165);
+            border-radius: 10px;
+            box-shadow: 0 0 5px 0 rgb(0 0 0 / 75%);
+            margin-right: 3vw;
+            margin-top: 3vw;
+        
+        }
+        .lista-right{
+            display: none;
+        }
+        .lista-right-mobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3vw;
+        }
+        .text-cont-right{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 3vw;
+            font-weight: 600;
+            color: #6d6b6b;
+            text-align: center;
+            margin-right: 3vw;
+        
+        }
+        .texto-right{
+            font-size: 2.5vw;
+            font-weight: 300;
+            color: #807f7f;
+            text-align: justify;
+            margin: 2vw;
+
+            
+
+        }
+        .lujan{
+            width: 90vw;
+            height: 50vw;
+            border: 1px solid rgb(177 165 165);
+            border-radius: 10px;
+            box-shadow: 0 0 5px 0 rgb(0 0 0 / 75%);
+            margin-top: 3vw;
+        }
+    .otra{
+        width: 90vw;
+        height: 60vw;
+        border: 1px solid rgb(177 165 165);
+        border-radius: 10px;
+        box-shadow: 0 0 5px 0 rgb(0 0 0 / 75%);
+        margin-right: 3vw;
+        margin-top: 3vw;
+    }
+    .texto-left{
+        font-size: 2.5vw;
+        font-weight: 300;
+        color: #807f7f;
+        text-align: justify;
+        margin: 2vw;
+    }
+        
 }

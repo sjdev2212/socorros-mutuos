@@ -7,7 +7,7 @@ import "../styles/Sepelios.css";
 
 const Sepelios = () => {
   return (
-    <main>
+    <main className="main-sep">
       <section className="sepelios-cont">
         <section className="sepelios-left">
           <h3>Sepelios</h3>
@@ -127,6 +127,22 @@ Nuestra Asociación cuenta con tres Panteones habilitados en el Cementerio de la
 
 características histórico testimoniales, estético arquitectónicas, así como también paisajístico-ambientales, el Gobierno de la Ciudad de Buenos Aires viabilizó su protección legal.
     </p>
+    </div>
+    </li>
+    <li className="lista-right-mobile">
+    
+    <div className="text-cont-right">
+    <h3 className="right-h3">
+    PANTEON “B” (Nuestra Señora de Luján) 
+    </h3>
+    <p className="texto-right">
+    Que cuenta con una hermosa Capilla y que en consideración a sus
+
+características histórico testimoniales, estético arquitectónicas, así como también paisajístico-ambientales, el Gobierno de la Ciudad de Buenos Aires viabilizó su protección legal.
+    </p>
+    </div>
+    <div className="img-right">
+    <img className="lujan" src={lujan} alt="lujan"></img>
     </div>
     </li>
     <li  className="lista-left">
