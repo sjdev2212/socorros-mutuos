@@ -12,6 +12,8 @@ import NuevoPlanSalud from './components/NuevoPlanSalud';
 import ConvenioGerdanna from './components/ConvenioGerdanna';
 import Sepelios from './components/Sepelios';
 import PanteonesPropios from './components/PanteonesPropios';
+import Convenio from './components/Convenio';
+import Subsidio from './components/Subsidio';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
 <Route path="/convenio-gerdanna" element={<ConvenioGerdanna/>} />
 <Route path="/sepelios" element={<Sepelios/>} />
 <Route path="/panteones-propios" element={<PanteonesPropios/>} />
+<Route path="/convenio" element={<Convenio/>} />
+<Route path="/subsidio" element={<Subsidio/>} />
 </Routes>
 <Footer/>
 

@@ -1,0 +1,108 @@
+.convenio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 0 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    border: 1px solid #413e3e;
+}
+.convenio-container h1{
+    font-size: 2.5rem;
+    color: #777272;
+    margin-bottom: 20px;
+}
+.convenio-container h3{
+    font-size: 1.5rem;
+    color: #686262;
+    margin-bottom: 20px;
+}
+@keyframes appear-from-bottom{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.div-int{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   border-bottom: 1px solid #646464;
+    width: 50%;
+    height: 60%;
+    margin-bottom: 20px;
+    animation: appear-from-bottom ease-in 1s;
+}
+
+.div-int h5{
+    font-size: 1.2rem;
+    color: #686262;
+    margin: 0;
+    padding: 0;
+   
+
+}
+.div-int p{
+    font-size: 1rem;
+    color: #686262;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (width <= 768px) {
+    .convenio-container{
+        margin-top: 23vw;
+    }
+    .convenio-container h1{
+        font-size: 7vw;
+    }
+    .convenio-container h3{
+        font-size: 6vw;
+        color: #686262;
+        margin-bottom: 6vw;
+        text-align: center;
+        line-height: 6.9vw;
+    }
+    .div-int{
+      
+       border-bottom: 1px solid #646464;
+        width: 80%;
+        height: 80%;
+        margin-bottom: 6w;
+        animation: appear-from-bottom ease-in 1s;
+    }
+    
+    .div-int h5{
+        font-size: 4.5vw;
+        color: #686262;
+        margin: 0 4vw;
+        padding: 0;
+        text-align: center;
+       
+    
+    }
+    .div-int p{
+        font-size: 4vw;
+        color: #686262;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+}

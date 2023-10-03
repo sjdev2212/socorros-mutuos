@@ -53,8 +53,17 @@ const dropClosed = "drop-closed"
             Panteones Propios
             </Link>
             </li>
-          <li className="drop-item">Subsidios</li>
-          <li className="drop-item">Convenios</li>
+          <li className="drop-item"> 
+          <Link className="drop-link" to="/subsidio">
+          Subsidios
+          </Link>
+          </li>
+          
+          <li className="drop-item">
+          <Link className="drop-link" to="/convenio">
+            Convenios
+            </Link>
+            </li>
         </ul>
     
       
