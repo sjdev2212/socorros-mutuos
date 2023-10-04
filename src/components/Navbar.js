@@ -54,27 +54,27 @@ const Navbar = () => {
               </Link>
               </li>
             <li className="item-list-mobile">
-              <Link className="mobile-link" to="/contacto">
+              <Link onClick={toggleClosed} className="mobile-link" to="/contacto">
                 
                 Contactarse
 
                 </Link>
             </li>
-            <li className="item-list-mobile">
-              <Link className="mobile-link">Preguntas</Link>
+            <li  className="item-list-mobile">
+              <Link onClick={toggleClosed} className="mobile-link">Preguntas</Link>
             </li>
             <li className="item-list-mobile">
-              <Link className="mobile-link">Novedades</Link>
+              <Link onClick={toggleClosed} className="mobile-link">Novedades</Link>
             </li>
 
             <li className="item-list-mobile">
-              <Link className="mobile-link">Sitios de Interes</Link>
+              <Link onClick={toggleClosed} className="mobile-link">Sitios de Interes</Link>
             </li>
             <li className="item-list-mobile">
-              <Link className="mobile-link">Como Asociarse</Link>
+              <Link onClick={toggleClosed} className="mobile-link">Como Asociarse</Link>
             </li>
             <li className="item-list-mobile">
-              <Link className="mobile-link">De interes para el Socio</Link>
+              <Link onClick={toggleClosed} className="mobile-link">De interes para el Socio</Link>
             </li>
           </ul>
         </section>
