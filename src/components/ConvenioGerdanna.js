@@ -1,7 +1,9 @@
 import React from 'react'
 import logo from "../images/logo.png"
 import gerdanna from "../images/gerdanna.jpg"
+import Insti from '../videos/insti.mp4'
 import  "../styles/ConvenioGerdanna.css"
+
 
 const ConvenioGerdanna = () => {
     const highlight = {
@@ -14,7 +16,7 @@ const ConvenioGerdanna = () => {
     <main className="convenio-cont" >
 <section className="convenio-left">
     <video className="video" controls >
-        <source  type="video/mp4" src="https://www.youtube.com/watch?v=K0najyrwX6c" />
+        <source  type="video/mp4" src={Insti} />
     </video>
         <div className="cartilla-div">
         <h2>

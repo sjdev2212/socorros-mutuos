@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "../images/logo.png";
 import Dropdowns from "./Dropdown";
 import Dropdown from "./DropDown2";
+import SitiosDeInteres from "./SitiosDeInteres";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import menu from "../images/menu.png";
@@ -22,9 +23,11 @@ const Navbar = () => {
     <main className="navbar-container">
       <section className="navbar-main">
         <div className="navbar-logo">
-          <img className="logo" src={logo} alt="logo" width={75} height={75} />
+          <Link to="/"><img className="logo" src={logo} alt="logo" width={75} height={75} /></Link>
           <p className="brand">
-            <strong>ASOCIACION SOCORROS MUTUOS</strong>
+            <Link to="/"><strong>
+              ASOCIACION SOCORROS MUTUOS</strong>
+            </Link>
           </p>
         </div>
         <section className="navbar-mobile">
@@ -118,8 +121,8 @@ const Navbar = () => {
           </li>
           <li className="item-list">Novedades</li>
 
-          <li>
-            <Link className="item-list">Sitios de Interes</Link>
+          <li className="drop">
+            <SitiosDeInteres />
           </li>
           <li>
             <Link to="/asociarse" className="item-list" >Como Asociarse</Link>
