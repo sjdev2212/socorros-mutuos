@@ -43,38 +43,53 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="item-list-mobile">
-              <Link  onClick={toggleClosed} className="mobile-link"  to="/inst">
+              <Link onClick={toggleClosed} className="mobile-link" to="/inst">
                 Institucional
               </Link>
             </li>
-            <li  className="item-list-mobile">
-              <Link className="mobile-link" to="/servicios-mob" onClick={toggleClosed}>
-              
-              Servicios
+            <li className="item-list-mobile">
+              <Link
+                className="mobile-link"
+                to="/servicios-mob"
+                onClick={toggleClosed}
+              >
+                Servicios
               </Link>
-              </li>
+            </li>
             <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link" to="/contacto">
-                
+              <Link
+                onClick={toggleClosed}
+                className="mobile-link"
+                to="/contacto"
+              >
                 Contactarse
+              </Link>
+            </li>
+            <li className="item-list-mobile">
+              <Link onClick={toggleClosed} to="/preguntas" className="mobile-link">
+                Preguntas
+              </Link>
+            </li>
+            <li className="item-list-mobile">
+              <Link onClick={toggleClosed} className="mobile-link">
+                Novedades
+              </Link>
+            </li>
 
-                </Link>
-            </li>
-            <li  className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">Preguntas</Link>
+            <li className="item-list-mobile">
+              <Link onClick={toggleClosed} className="mobile-link">
+                Sitios de Interes
+              </Link>
             </li>
             <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">Novedades</Link>
-            </li>
-
-            <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">Sitios de Interes</Link>
+              <Link onClick={toggleClosed} className="mobile-link">
+                Como Asociarse
+              </Link>
             </li>
             <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">Como Asociarse</Link>
-            </li>
-            <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">De interes para el Socio</Link>
+              <Link onClick={toggleClosed} className="mobile-link">
+                De interes para el Socio
+              </Link>
             </li>
           </ul>
         </section>
@@ -86,16 +101,20 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/inst" className="item-list">Institucional</Link>
+            <Link to="/inst" className="item-list">
+              Institucional
+            </Link>
           </li>
           <li className="drop">
             <Dropdowns />
           </li>
           <li>
-            <Link className="item-list" to="/contacto">Contactarse</Link>
+            <Link className="item-list" to="/contacto">
+              Contactarse
+            </Link>
           </li>
           <li>
-            <Link className="item-list">Preguntas</Link>
+            <Link className="item-list" to="/preguntas">Preguntas</Link>
           </li>
           <li className="item-list">Novedades</li>
 
