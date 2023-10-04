@@ -21,12 +21,13 @@
     background-color: whitesmoke;
     border: 3px solid rgb(0 0 0 / 15%);
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
     z-index: 1;
     margin-top: 10px;
     list-style: none;  
     height: 25vw;
     font-size: 0.95vw;
-    width: 14vw;
+    width: 18vw;
     align-items: center;
     justify-items: center;
     cursor: pointer;

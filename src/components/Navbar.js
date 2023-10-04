@@ -80,7 +80,7 @@ const Navbar = () => {
             </li>
 
             <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">
+              <Link  onClick={toggleClosed} to="sitios-mob" className="mobile-link">
                 Sitios de Interes
               </Link>
             </li>

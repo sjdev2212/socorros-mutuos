@@ -1,31 +1,12 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/SitiosDeInteres.css'
+import React from 'react'
+import { Link } from 'react-router-dom'
+import '../styles/SitiosMobile.css'
 
-
-const SitiosDeInteres = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleOpen = () => {
-    setIsOpen(true);
-  };
-  const toggleClosed = () => {
-    setIsOpen(false);
-  }
-
-const dropOpen = "drop-open-sitios"
-const dropClosed = "drop-closed"
-
+const SitiosMobile = () => {
   return (
-    <div >
-      <button className="drop-btn" onMouseOver={toggleOpen}>
-        Sitios de Interes
-      </button>
-
-
-      <div >
-        < ul onMouseLeave={toggleClosed} className={isOpen ? dropOpen : dropClosed}>
-            <div className="primeros-7">
+    <main className="sitios-mob">
+          < ul  >
+        
 
           <li className="drop-item">
             <Link className="drop-link-interes" target="_blank" to="http://www.centrodeoficiales.com.ar/" >
@@ -61,9 +42,9 @@ const dropClosed = "drop-closed"
             Sociedad Militar Seguro de Vida
             </Link>
             </li>
-            </div>
+          
 
-            <div className="segundos-6">
+  
             <li className="drop-item">
           <Link className="drop-link-interes" target="_blank" to="http://www.circulomilitar.org/">
             Circulo Militar
@@ -94,13 +75,12 @@ const dropClosed = "drop-closed"
             Automovil Club Argentino
             </Link>
             </li>
-            </div>
+           
           </ul>
-    
-      
-    </div>
-    </div>
-  );
-};
 
-export default SitiosDeInteres;
+
+    </main>
+  )
+}
+
+export default SitiosMobile

@@ -12,7 +12,7 @@ const Sepelios = () => {
         <section className="sepelios-left">
           <h3>Sepelios</h3>
           <p>
-            partir del 1O de octubre 2020, el Servicio de SEPELIOS será brindado por
+             A partir del 1O de octubre 2020, el Servicio de SEPELIOS será brindado por
             la EMPRESA VEL DEL NORTE
           </p>
           <p>El servicio abarca:</p>

@@ -17,6 +17,7 @@ import Subsidio from './components/Subsidio';
 import Contacto from './components/Contacto';
 import Preguntas from './components/Preguntas';
 import Asociarse from './components/Asociarse';
+import SitiosMobile from './components/SitiosMobile';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
 <Route path="/contacto" element={<Contacto/>} />
 <Route path="/preguntas" element={<Preguntas/>} />
 <Route path="/asociarse" element={<Asociarse/>} />
+<Route path="/sitios-mob" element={<SitiosMobile/>} />
 
 
 </Routes>
