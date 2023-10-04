@@ -82,7 +82,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">
+              <Link  onClick={toggleClosed} className="mobile-link" to="/asociarse">
                 Como Asociarse
               </Link>
             </li>
@@ -122,7 +122,7 @@ const Navbar = () => {
             <Link className="item-list">Sitios de Interes</Link>
           </li>
           <li>
-            <Link className="item-list">Como Asociarse</Link>
+            <Link to="/asociarse" className="item-list" >Como Asociarse</Link>
           </li>
 
           <li>

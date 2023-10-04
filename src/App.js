@@ -16,6 +16,7 @@ import Convenio from './components/Convenio';
 import Subsidio from './components/Subsidio';
 import Contacto from './components/Contacto';
 import Preguntas from './components/Preguntas';
+import Asociarse from './components/Asociarse';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
 <Route path="/subsidio" element={<Subsidio/>} />
 <Route path="/contacto" element={<Contacto/>} />
 <Route path="/preguntas" element={<Preguntas/>} />
+<Route path="/asociarse" element={<Asociarse/>} />
 
 
 </Routes>
