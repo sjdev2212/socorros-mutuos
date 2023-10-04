@@ -4,19 +4,21 @@
 
 
 }
+
 .propios-section{
-  
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 50vw;
     width: 100vw;
 }
+
 @keyframes slide-in-from-left {
     0% {
       transform: translateX(-100%);
       opacity: 0;
     }
+
     100% {
       transform: translateX(0);
       opacity: 1;
@@ -30,14 +32,16 @@
     margin-bottom: 2vw;
     margin-top: 3vw;
     text-align: center;
-    color: rgb(128, 124, 124);
+    color: rgb(128 124 124);
     animation : 1s ease-out 0s 1 slide-in-from-left;
 }
+
  @keyframes slide-in-from-right {
     0% {
       transform: translateX(100%);
       opacity: 0;
     }
+
     100% {
       transform: translateX(0);
       opacity: 1;
@@ -52,24 +56,25 @@
     justify-content: center;
     align-items: center;
     margin-left: 3vw;
-   border-bottom: 1px solid rgb(201, 192, 192);
+   border-bottom: 1px solid rgb(201 192 192);
    animation : 1s ease-out 0s 1 slide-in-from-right;
 }
+
 .propios-text h3{
     font-size: 1.5vw;
     font-weight: bold;
     margin-bottom: 2vw;
     margin-top: 3vw;
     text-align: center;
-    color: rgb(128, 124, 124);
+    color: rgb(128 124 124);
 }
+
 .propios-text p {
     font-size: 1vw;
     font-weight: bold;
     margin-bottom: 2vw;
     margin-top: 3vw;
-    text-align: center;
-    color: rgb(128, 124, 124);
+    color: rgb(128 124 124);
     text-align: center;
 } 
 
@@ -84,7 +89,6 @@
 }
 
 @media screen and (width <= 768px) {
-
     .propios-container{
         margin-top: 25vw;
         height: 140vw;
@@ -93,22 +97,22 @@
     }
   
     .propios-section{
-  
         display: flex;
         flex-direction: column;
-        
         height: 100vw;
         width: 100vw;
         
     }
+
     .propios-h1{
         font-size: 5vw;
         font-weight: bold;
         margin-bottom: 2vw;
         margin-top: 3vw;
         text-align: center;
-        color: rgb(128, 124, 124);
+        color: rgb(128 124 124);
     }
+
     .propios-text{
         width: 100vw;
         height:50vw;
@@ -116,24 +120,25 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       border-bottom: 1px solid rgb(201, 192, 192);
+       border-bottom: 1px solid rgb(201 192 192);
     }
+
     .propios-text h3{
         font-size: 4vw;
         font-weight: bold;
       margin: 3vw;
-
         text-align: center;
-        color: rgb(128, 124, 124);
+        color: rgb(128 124 124);
     }
+
     .propios-text p {
         font-size: 2.5vw;
         font-weight: bold;
        margin: 3vw;
-        text-align: center;
-        color: rgb(128, 124, 124);
+        color: rgb(128 124 124);
         text-align: center;
     } 
+
     .slide-container-propios{
         width: 60vw;
         height: 40vw;

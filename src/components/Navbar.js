@@ -54,7 +54,11 @@ const Navbar = () => {
               </Link>
               </li>
             <li className="item-list-mobile">
-              <Link className="mobile-link">Contactarse</Link>
+              <Link className="mobile-link" to="/contacto">
+                
+                Contactarse
+
+                </Link>
             </li>
             <li className="item-list-mobile">
               <Link className="mobile-link">Preguntas</Link>
@@ -88,7 +92,7 @@ const Navbar = () => {
             <Dropdowns />
           </li>
           <li>
-            <Link className="item-list">Contactarse</Link>
+            <Link className="item-list" to="/contacto">Contactarse</Link>
           </li>
           <li>
             <Link className="item-list">Preguntas</Link>

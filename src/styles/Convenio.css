@@ -9,26 +9,30 @@
     width: 95%;
     height: 100%;
     background-color: #fff;
-    padding: 0 0 50px 0;
+    padding: 0 0 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
     border: 1px solid #413e3e;
 }
+
 .convenio-container h1{
     font-size: 2.5rem;
     color: #777272;
     margin-bottom: 20px;
 }
+
 .convenio-container h3{
     font-size: 1.5rem;
     color: #686262;
     margin-bottom: 20px;
 }
+
 @keyframes appear-from-bottom{
     from{
         opacity: 0;
         transform: translateY(50px);
     }
+
     to{
         opacity: 1;
         transform: translateY(0);
@@ -56,6 +60,7 @@
    
 
 }
+
 .div-int p{
     font-size: 1rem;
     color: #686262;
@@ -68,9 +73,11 @@
     .convenio-container{
         margin-top: 23vw;
     }
+
     .convenio-container h1{
         font-size: 7vw;
     }
+
     .convenio-container h3{
         font-size: 6vw;
         color: #686262;
@@ -78,12 +85,12 @@
         text-align: center;
         line-height: 6.9vw;
     }
+
     .div-int{
-      
        border-bottom: 1px solid #646464;
         width: 80%;
         height: 80%;
-        margin-bottom: 6w;
+        margin-bottom: 6vw;
         animation: appear-from-bottom ease-in 1s;
     }
     
@@ -96,6 +103,7 @@
        
     
     }
+
     .div-int p{
         font-size: 4vw;
         color: #686262;

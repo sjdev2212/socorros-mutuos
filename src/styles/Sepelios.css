@@ -22,7 +22,6 @@ grid-template-columns: 56% 44%;
 
 .sepelios-left{
     height:80vw;
- 
     border-radius: 10px;
     animation: appear-from-left 1s;
 }
@@ -185,10 +184,12 @@ grid-template-columns: 56% 44%;
         width: 94.9vw;
     
 }
+
 .lista-right-mobile{
  display: none;
 
 }
+
 .img-right{
     width: 100%;
     height: 100%;
@@ -253,12 +254,13 @@ grid-template-columns: 56% 44%;
     
 }
 
-/*-----------------------MOBILE-----------------------*/    
+/* -----------------------MOBILE----------------------- */    
 
 @media screen and (width <= 768px) {
     .main-sep{
         height: auto;
     }
+
     .sepelios-cont{
         margin-top: 25vw;
         height: auto;
@@ -268,16 +270,15 @@ grid-template-columns: 56% 44%;
        flex-direction: column;
             
         }
+
         .sepelios-left{
             height:100vw;
-         
             border-radius: 10px;
             animation: appear-from-left 1s;
         }
         
         .sepelios-left h3{
             font-size: 5vw;
-            margin: 0;
             padding: 0;
           margin: 1vw 40vw;
         }
@@ -301,6 +302,7 @@ grid-template-columns: 56% 44%;
             color: rgb(116 107 107);
             font-weight: 400;
         }
+
         .norte{
             height: 70vw;
             width: 90vw;
@@ -310,6 +312,7 @@ grid-template-columns: 56% 44%;
             border-radius: 5px;
 
         }
+
         .panteones{
             height:350vw;
             display: flex;
@@ -323,8 +326,8 @@ grid-template-columns: 56% 44%;
             
          
         }
+
         .panteones-title{
-         
             position: relative;
             top: -105vw;
             font-size: 4.5vw;
@@ -332,6 +335,7 @@ grid-template-columns: 56% 44%;
             color: #6d6b6b;
             text-align: center;
         }
+
         .panteones-h4 {
             position: relative;
             top: -100vw;
@@ -341,6 +345,7 @@ grid-template-columns: 56% 44%;
             text-align: center;
         
         }
+
         .lista-left{
            display: flex;
               flex-direction: column;
@@ -348,16 +353,17 @@ grid-template-columns: 56% 44%;
                 align-items: center;
                
         }
+
         .left-h3{
             font-size: 3.2vw;
             font-weight: 600;
             color: #6d6b6b;
-        
             display: flex;
             justify-content: center;
             text-align: center;
 
         }
+
         .pilar{
             width: 90vw;
             height: 60vw;
@@ -368,9 +374,11 @@ grid-template-columns: 56% 44%;
             margin-top: 3vw;
         
         }
+
         .lista-right{
             display: none;
         }
+
         .lista-right-mobile{
             display: flex;
             flex-direction: column;
@@ -378,6 +386,7 @@ grid-template-columns: 56% 44%;
             align-items: center;
             margin-top: 3vw;
         }
+
         .text-cont-right{
             display: flex;
             flex-direction: column;
@@ -391,6 +400,7 @@ grid-template-columns: 56% 44%;
             margin-right: 3vw;
         
         }
+
         .texto-right{
             font-size: 2.5vw;
             font-weight: 300;
@@ -401,6 +411,7 @@ grid-template-columns: 56% 44%;
             
 
         }
+
         .lujan{
             width: 90vw;
             height: 50vw;
@@ -409,6 +420,7 @@ grid-template-columns: 56% 44%;
             box-shadow: 0 0 5px 0 rgb(0 0 0 / 75%);
             margin-top: 3vw;
         }
+
     .otra{
         width: 90vw;
         height: 60vw;
@@ -418,6 +430,7 @@ grid-template-columns: 56% 44%;
         margin-right: 3vw;
         margin-top: 3vw;
     }
+
     .texto-left{
         font-size: 2.5vw;
         font-weight: 300;
