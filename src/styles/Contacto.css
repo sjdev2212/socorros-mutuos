@@ -153,7 +153,7 @@
       }
 
       .contacto-left{
-        height: 96vw;   
+        height: 115vw;   
         width: 56vw;
         animation: appear-from-left 1s ease-in-out;
     }
