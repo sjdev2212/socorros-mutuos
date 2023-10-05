@@ -34,8 +34,16 @@ const Dropdown2 = () => {
             </Link>
             
             </li>
-          <li className="drop-item">Constancia de pago</li>
-          <li className="drop-item">FUMIGACION DE LOS PANTEONES A Y B</li>
+          <li className="drop-item">
+            <Link className="drop-link" to="/constancia-de-pago">
+            Constancia de pago
+            </Link>
+            </li>
+          <li className="drop-item">
+            <Link className="drop-link" to="/fumigaciones">
+            FUMIGACION DE LOS PANTEONES A Y B
+            </Link>
+            </li>
           <li className="drop-item">VISITA DE UN CURSO DE LA UADE</li>
           <li className="drop-item">PRESTADORES MEDICOS PERIFERICOS  AÑO- 2021</li>
       

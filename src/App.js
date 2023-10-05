@@ -19,6 +19,9 @@ import Preguntas from './components/Preguntas';
 import Asociarse from './components/Asociarse';
 import SitiosMobile from './components/SitiosMobile';
 import FormasDePago from './components/FormasDePago';
+import DeInteresMobile from './components/DeInteresMobile';
+import ConstanciaDePago from './components/ConstanciaDePago';
+import Fumigaciones from './components/Fumigaciones';
 
 
 function App() {
@@ -45,6 +48,9 @@ function App() {
 <Route path="/asociarse" element={<Asociarse/>} />
 <Route path="/sitios-mob" element={<SitiosMobile/>} />
 <Route path="/formas-de-pago" element={<FormasDePago/>} />
+<Route path="/de-interes-mob" element={<DeInteresMobile/>} />
+<Route path="/constancia-de-pago" element={<ConstanciaDePago/>} />
+<Route path="/fumigaciones" element={<Fumigaciones/>} />
 
 
 </Routes>
