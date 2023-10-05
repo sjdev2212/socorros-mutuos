@@ -95,8 +95,9 @@ ul {
 
 @media screen and (width <= 768px) {
   .navbar-container {
-    height: 22vw;
+    height: auto;
     width: 100%;
+ 
     
 
   }
@@ -150,6 +151,7 @@ ul {
     position: absolute;
     top: 22vw;
     left: 0;
+    top: 21.2vw;
     background-color: rgb(19 95 17);
     margin: auto;
     z-index: 100;
