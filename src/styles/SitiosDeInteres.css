@@ -25,6 +25,7 @@
     transition: 1s;
   
 }
+
 .primeros-7{
     height: 26vw;
     width: 15vw;
@@ -37,6 +38,7 @@
 
    
 }
+
 .drop-item-interes{
     height: 4vw;
     width: 13vw;
@@ -52,13 +54,15 @@
     text-decoration: none;
     font-size: 1vw;
     text-align: start;
-    color: rgb(71, 70, 70);
+    color: rgb(71 70 70);
 }
+
 .drop-link-interes:hover{
-    color: rgb(28, 100, 9);
+    color: rgb(28 100 9);
     font-weight: bold;
     scale: 1.1;
 }
+
 .drop-closed{
     display: none;
 }

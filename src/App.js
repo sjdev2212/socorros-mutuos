@@ -18,6 +18,7 @@ import Contacto from './components/Contacto';
 import Preguntas from './components/Preguntas';
 import Asociarse from './components/Asociarse';
 import SitiosMobile from './components/SitiosMobile';
+import FormasDePago from './components/FormasDePago';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
 <Route path="/preguntas" element={<Preguntas/>} />
 <Route path="/asociarse" element={<Asociarse/>} />
 <Route path="/sitios-mob" element={<SitiosMobile/>} />
+<Route path="/formas-de-pago" element={<FormasDePago/>} />
 
 
 </Routes>

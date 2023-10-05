@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/DropDown2.css'
 
 
@@ -26,7 +27,13 @@ const Dropdown2 = () => {
 
       <div >
         <ul onMouseLeave={toggleClosed} className={isOpen ? dropOpen : dropClosed}>
-          <li className="drop-item">Formas de  pago</li>
+          <li className="drop-item" >
+            <Link className="drop-link" to="/formas-de-pago">
+            
+            Formas de  pago
+            </Link>
+            
+            </li>
           <li className="drop-item">Constancia de pago</li>
           <li className="drop-item">FUMIGACION DE LOS PANTEONES A Y B</li>
           <li className="drop-item">VISITA DE UN CURSO DE LA UADE</li>

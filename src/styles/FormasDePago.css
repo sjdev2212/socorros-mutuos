@@ -1,0 +1,232 @@
+.forma-container {
+    border: 1px solid #777373;
+    box-shadow: 0 0 10px 0 #777373;
+    border-radius: 10px;
+    margin: 10vw;
+    height: 50vw;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    animation: appear-from-left 1s ease-in-out;
+
+}
+
+@keyframes appear-from-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.forma-container h1 {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    color: #6e746e;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.forma-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5vw;
+    height: 20vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+
+
+
+}
+
+.forma-container ul li {
+    border: 1px solid #777373;
+    box-shadow: 0 0 10px 0 #777373;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 1vw;
+    text-align: center;
+
+}
+
+.forma-container ul li a {
+    text-decoration: none;
+    color: #038d03;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 2.3vw;
+}
+
+.whatup-div p {
+    font-size: 1.5vw;
+    color: #6e746e;
+    font-weight: 500;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 2.3vw;
+}
+
+.forma-container ul li p {
+    font-size: 1.2vw;
+    color: #6e746e;
+    font-weight: 300;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.forma-footer h3 {
+    font-size: 1.6vw;
+    color: #9a9e9a;
+    font-weight: 700;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+
+}
+
+.forma-container ul li h3 {
+    font-size: 1.5vw;
+    color: #4a4d4a;
+    font-weight: 500;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 2.3vw;
+}
+
+.forma-container ul li:hover {
+    transform: scale(1.01);
+    background-color: #e9e5e5;
+}
+
+.forma-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vw;
+}
+
+
+
+.whatup {
+    width: 2.5vw;
+    height: 2.5vw;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.whatup-div {
+    width: 93vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatup:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+
+}
+
+
+
+@media screen and (width <=768px) {
+    .forma-container {
+     height: 200vw;
+     margin-top: 26vw;
+        }
+
+        .forma-container h1 {
+          font-size: 8vw;
+        }
+
+.forma-container ul {
+    display: flex;
+    flex-direction: column;
+    height: 150vw;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+.forma-container ul li {
+    height: 30vw;
+    width: 85%;
+
+  
+
+}
+
+.whatup-div p {
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 2.3vw;
+}
+
+.forma-container ul li p {
+    font-size: 3vw;
+;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.forma-footer h3 {
+    font-size:  3.5vw;
+    color: #9a9e9a;
+    font-weight: 700;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+
+
+}
+
+
+.forma-container ul li h3 {
+    font-size: 3.3vw;
+    line-height: 2.3vw;
+}
+
+.whatup {
+    width: 5vw;
+    height: 5vw;
+  
+
+}
+
+
+
+
+
+.forma-container ul li a {
+    text-decoration: none;
+    color: #038d03;
+    font-size: 3.8vw;
+    font-weight: 500;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 2.3vw;
+}
+
+          
+
+}
