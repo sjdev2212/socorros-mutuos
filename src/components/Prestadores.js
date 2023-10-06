@@ -38,15 +38,16 @@ const Prestadores = () => {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    backgroundSize: windowWidth > 768 ? "30vw" : "30vw 20vw",
+    backgroundSize: windowWidth > 768 ? "30vw" : "60vw 60vw",
     backgroundRepeat: "no-repeat",
-    height: windowWidth > 768 ? "34vw" : "110vw",
-    width: "50%",
+    height: windowWidth > 768 ? "34vw" : "60vw",
+    width:  windowWidth > 7668 ?  "50%" :"100%",
     margin: "6vw auto",
-    border: "2px solid grey",
+    border: windowWidth >  768 ?  "2px solid grey" : "none",
     borderRadius: "10px",
     position: "relative",
     bottom: "4.5vw",
+    left : windowWidth > 768 ? "0" : "18vw",
   };
 
   const slideImages = [
@@ -154,6 +155,7 @@ const Prestadores = () => {
         >
           {slideImages.map((slideImage, index) => (
             <div key={index}>
+          
               <div
                 className="slide-mob"
                 style={{
