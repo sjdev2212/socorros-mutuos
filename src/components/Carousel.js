@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";  
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import gerdana from "../images/doc.jpg";
@@ -66,6 +67,8 @@ const Carousel = () => {
         zIndex: "1",
       },
       btn: "Ver mas",
+      redirect: "/nuevo-plan",
+      linkStyle: "link-style",
     },
     {
       url: chacaedit,
@@ -82,6 +85,9 @@ const Carousel = () => {
       text: "Nuestra Asociación cuenta con tres Panteones habilitados en el Cementerio de la Chacarita",
       paragraph: paragraphStyle,
       btn: "Ver mas",
+      redirect: "/panteones-propios",
+      linkStyle: "link-style",
+
     },
     {
       url: marpla,
@@ -98,6 +104,7 @@ const Carousel = () => {
       text: "Nuestra Asociación cuenta con convenios en Turismo a traves de la empresa TURISMO MIL",
       paragraph: paragraphStyle,
       btn: "Ver mas",
+      linkStyle: "link-style",
     },
   ];
 
@@ -134,7 +141,8 @@ const Carousel = () => {
 
                   <p style={slideImage.paragraph}>{slideImage.text}</p>
                 </div>
-                <button className="btn-vermas">{slideImage.btn}</button>
+                <button className="btn-vermas">
+                  <Link className={slideImage.linkStyle} to={slideImage.redirect}>{slideImage.btn}</Link></button>
               </div>
             </div>
           ))}

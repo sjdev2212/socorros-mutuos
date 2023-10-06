@@ -29,6 +29,15 @@
   z-index: 10;
   bottom: 200vw;
 }
+.link-style{
+  text-decoration: none;
+  color: #e2ece2;
+  font-size: 1.5vw;
+
+}
+.link-style:hover{
+  color: #050505;
+}
 
 
 @media screen and (width <= 768px) {
@@ -39,6 +48,13 @@
   
 
 }
+.link-style{
+  text-decoration: none;
+  color: #161816;
+  font-size: 3.5vw;
+
+}
+
 
 .btn-vermas{
   background-color: #4f8a0d;

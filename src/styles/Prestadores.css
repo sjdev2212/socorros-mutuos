@@ -1,0 +1,33 @@
+.prestadores-cont{
+    margin-top: 9.5vw;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    animation : appear-from-above 1s ease-in;
+}
+@keyframes appear-from-above{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.prestadores-h1{
+    font-size: 2vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+ 
+    text-align: center;
+    color: #817a7a;
+    line-height: 4.5vw;
+
+   
+}
