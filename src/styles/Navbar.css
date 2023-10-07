@@ -151,10 +151,12 @@ ul {
     position: absolute;
     top: 22vw;
     left: 0;
-    top: 21.2vw;
+    top: 20vw;
     background-color: rgb(19 95 17);
     margin: auto;
     z-index: 100;
+    touch-action: pan-y; 
+    overflow-y: auto;
  }
 
   .item-list-mobile {
