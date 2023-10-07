@@ -24,7 +24,7 @@ const DeInteresMobile = () => {
                 </Link>
             </li>
             <li>
-                <Link className="de-interes-link" to="/de-interes-mob">
+                <Link className="de-interes-link" to="/prestadores">
                 Prestadores Medicos Perifericos
                 </Link>
             </li>
