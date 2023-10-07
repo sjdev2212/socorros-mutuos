@@ -40,7 +40,11 @@ const Dropdown2 = () => {
             </Link>
             </li>
        
-          <li className="drop-item">VISITA DE UN CURSO DE LA UADE</li>
+          <li className="drop-item">
+            <Link className="drop-link" to="/visita">
+            VISITA DE UN CURSO DE LA UADE
+            </Link>
+            </li>
           <li className="drop-item"> 
           <Link className="drop-link" to="/prestadores">
           PRESTADORES MEDICOS PERIFERICOS

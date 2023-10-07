@@ -24,6 +24,7 @@ import ConstanciaDePago from './components/ConstanciaDePago';
 import Prestadores from './components/Prestadores';
 import Novedades from './components/Novedades';
 import Turismo from './components/Turismo';
+import Visita from './components/Visita';
 
 
 
@@ -56,6 +57,7 @@ function App() {
 <Route path="/prestadores" element={<Prestadores/>} />
 <Route path="/novedades" element={<Novedades/>} />
 <Route path="/turismo" element={<Turismo/>} />
+<Route path="/visita" element={<Visita/>} />
 
 
 

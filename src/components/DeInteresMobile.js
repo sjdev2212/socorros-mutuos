@@ -19,7 +19,7 @@ const DeInteresMobile = () => {
             </li>
             
             <li>
-                <Link className="de-interes-link" to="/formas-de-pago">
+                <Link className="de-interes-link" to="/visita">
                Visita de un Curso de la UADE
                 </Link>
             </li>
