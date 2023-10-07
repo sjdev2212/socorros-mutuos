@@ -46,7 +46,7 @@ const Prestadores = () => {
     borderRadius: "10px",
     position: "relative",
     bottom: "4.5vw",
-    left : windowWidth > 768 ? "14vw" : "18vw",
+    left : windowWidth > 768 ? "16vw" : "20vw",
   };
 
   const slideImages = [
