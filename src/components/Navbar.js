@@ -74,7 +74,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="item-list-mobile">
-              <Link onClick={toggleClosed} className="mobile-link">
+              <Link onClick={toggleClosed} className="mobile-link" to="/novedades">
                 Novedades
               </Link>
             </li>
@@ -119,7 +119,12 @@ const Navbar = () => {
           <li>
             <Link className="item-list" to="/preguntas">Preguntas</Link>
           </li>
-          <li className="item-list">Novedades</li>
+          <li className="item-list">
+            <Link to="/novedades" className="item-list">
+            Novedades
+            </Link>
+            
+            </li>
 
           <li className="drop">
             <SitiosDeInteres />

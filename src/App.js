@@ -22,6 +22,8 @@ import FormasDePago from './components/FormasDePago';
 import DeInteresMobile from './components/DeInteresMobile';
 import ConstanciaDePago from './components/ConstanciaDePago';
 import Prestadores from './components/Prestadores';
+import Novedades from './components/Novedades';
+import Turismo from './components/Turismo';
 
 
 
@@ -52,6 +54,8 @@ function App() {
 <Route path="/de-interes-mob" element={<DeInteresMobile/>} />
 <Route path="/constancia-de-pago" element={<ConstanciaDePago/>} />
 <Route path="/prestadores" element={<Prestadores/>} />
+<Route path="/novedades" element={<Novedades/>} />
+<Route path="/turismo" element={<Turismo/>} />
 
 
 

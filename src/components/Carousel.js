@@ -105,6 +105,7 @@ const Carousel = () => {
       paragraph: paragraphStyle,
       btn: "Ver mas",
       linkStyle: "link-style",
+      redirect: "/turismo",
     },
   ];
 
