@@ -43,11 +43,10 @@ const Prestadores = () => {
     height: windowWidth > 768 ? "34vw" : "60vw",
     width:  windowWidth > 7668 ?  "50%" :"100%",
     margin: "6vw auto",
-    border: windowWidth >  768 ?  "2px solid grey" : "none",
     borderRadius: "10px",
     position: "relative",
     bottom: "4.5vw",
-    left : windowWidth > 768 ? "0" : "18vw",
+    left : windowWidth > 768 ? "14vw" : "18vw",
   };
 
   const slideImages = [
