@@ -1,5 +1,6 @@
 {
   "name": "socorros",
+  "homepage": "https://socorrosmutuos.com.ar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
