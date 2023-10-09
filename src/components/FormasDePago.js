@@ -6,7 +6,7 @@ const FormasDePago = () => {
 
     const emailAddress = 'info@socorrosmutos.com.ar'; 
     const corporativo = '+1126577262'; 
-    const stellaMaris = '+1176264021';
+
 
   const handleEmailClick = () => {
     // Create a mailto link with the email address
@@ -56,7 +56,7 @@ const FormasDePago = () => {
     </ul>
     <div className="forma-footer">
         <h3>
-        SI TIENE DUDAS COMUNIQUESE A LOS SIGUIENTES TELÉFONOS
+        SI TIENE DUDAS COMUNIQUESE AL WHATSAPP CORPORATIVO
         </h3>
             <div className="whatup-div">
         <p>
@@ -65,12 +65,7 @@ const FormasDePago = () => {
         <img className="whatup" src={whatup} alt='whatsapp-logo'></img>
         </a>
         </p>
-        <p>
-        Whatsapp  Sra Stella Maris
-        <a href={`https://wa.me/${stellaMaris}`} target="_blank" rel="noopener noreferrer">
-        <img className="whatup" src={whatup} alt='whatsapp-logo'></img>
-        </a>
-        </p>
+  
         </div>
 
     </div>

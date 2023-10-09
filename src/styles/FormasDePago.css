@@ -136,7 +136,7 @@
 .whatup-div {
     width: 93vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .whatup:hover {
@@ -153,8 +153,8 @@
      margin-top: 26vw;
         }
 
-        .forma-container h1 {
-          font-size: 8vw;
+    .forma-container h1 {
+        font-size: 8vw;
         }
 
 .forma-container ul {
@@ -170,9 +170,6 @@
 .forma-container ul li {
     height: 30vw;
     width: 85%;
-
-  
-
 }
 
 .whatup-div p {
@@ -196,11 +193,7 @@
     margin-top: 1vw;
     margin-bottom: 1vw;
     text-align: center;
-
-
 }
-
-
 .forma-container ul li h3 {
     font-size: 3.3vw;
     line-height: 2.3vw;
@@ -212,10 +205,6 @@
   
 
 }
-
-
-
-
 
 .forma-container ul li a {
     text-decoration: none;

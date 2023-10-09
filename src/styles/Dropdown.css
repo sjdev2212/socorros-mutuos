@@ -1,11 +1,16 @@
 .drop-btn{
     border: none;
-    color : black;
+    color : rgb(31, 32, 31);
     font-weight: bold;
-    font-size: 1.2vw;
+    
+    
 
 }
+.drop-span{
+    position: relative;
+    left: 0.5vw;
 
+}
 
 .drop-open{
     display: flex;

@@ -53,7 +53,7 @@ const Carousel = () => {
   const slideImages = [
     {
       url: gerdana,
-      text: "Atencion en consultorios perifericos y Prestaciones Medicas Gerdanna Salud",
+      text: "Atención en consultorios periféricos",
       paragraph: paragraphStyle,
       h1: gerdanaH1,
       h1styled: {

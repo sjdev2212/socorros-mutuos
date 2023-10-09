@@ -46,7 +46,7 @@ En la Sede de la Mutual o Telefónicamente a los Nros 4342-6741 / 7363 / 7259
 Las sugerencias se recibirán en <strong>info@socorrosmutuos.com.ar</strong>
 </p>
 <p>
-  <Link>
+  <Link  to="/prestadores">
   haga click aquí para ver: Médicos Periféricos 2021
   </Link>
 </p>

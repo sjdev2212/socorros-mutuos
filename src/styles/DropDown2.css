@@ -1,11 +1,3 @@
-.drop-btn{
-    border: none;
-    color : rgb(19 18 18);
-    font-weight: bold;
-    font-size: 1.1vw;
-    line-height: 1.3vw;
-
-}
 
 .drop-btn:hover{
     color: rgb(30 192 38);

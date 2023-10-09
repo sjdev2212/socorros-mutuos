@@ -19,8 +19,11 @@ const dropClosed = "drop-closed"
 
   return (
     <div >
+
       <button className="drop-btn" onMouseOver={toggleOpen}>
+        <span className="drop-span">
         Servicios
+        </span>
       </button>
 
 
