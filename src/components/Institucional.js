@@ -113,7 +113,6 @@ const Institucional = () => {
    <div className="vocales-sup">
     <h3>Vocales Suplentes</h3>
     <p>CR Med (R) Miguel Rivero</p>
-    <p>CN (R) Adolfo Ernesto Rinaldi</p>
     <p>CR (R) Daniel Efrain Tello</p>
    </div>
    <div className="fiscalizadora">
@@ -127,7 +126,7 @@ const Institucional = () => {
     <h3 >
         Miembros Suplentes
     </h3>
-    <p>CR (R) Juan Antonio Grande</p>
+
     <p>CR (R) Claudio Antonio Testa</p>
    </div>
 

@@ -35,7 +35,7 @@ const FormasDePago = () => {
                 Pago por transferencia bancaria
             </h3>
             <p>
-            A LA CUENTA CORRIENTE NRO 0006419010 CBU NRO 0110 0037 2000 0064 1901 03, una vez efectuado el envíe el comprobante al correo info@socorrosmutuos.com.ar
+            A LA CUENTA CORRIENTE NRO 710297616-000 CBU NRO 0340100800710297616003 ALIAS: GRAMO.GANCHO.PERA, una vez efectuado el envíe el comprobante al correo info@socorrosmutuos.com.ar
             </p>
         </li>
         <li>

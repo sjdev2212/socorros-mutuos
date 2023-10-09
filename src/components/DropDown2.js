@@ -50,6 +50,11 @@ const Dropdown2 = () => {
           PRESTADORES MEDICOS PERIFERICOS
           </Link>
           </li>
+          <li className="drop-item"> 
+          <Link className="drop-link" to="/gerdanna-slides">
+          Gerdanna Salud
+          </Link>
+          </li>
       
         </ul>
     

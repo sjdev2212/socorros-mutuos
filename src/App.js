@@ -25,6 +25,8 @@ import Prestadores from './components/Prestadores';
 import Novedades from './components/Novedades';
 import Turismo from './components/Turismo';
 import Visita from './components/Visita';
+import GerdannaSlides from './components/GerdannaSlides';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -33,8 +35,8 @@ function App() {
     <main className="main-container">
 
 <Navbar/>
+<ScrollToTop/>
 <Routes>
-
 
 <Route path="/" element={<Home/>} />
 <Route path="/inst" element={<Institucional/>} />
@@ -58,6 +60,7 @@ function App() {
 <Route path="/novedades" element={<Novedades/>} />
 <Route path="/turismo" element={<Turismo/>} />
 <Route path="/visita" element={<Visita/>} />
+<Route path="/gerdanna-slides" element={<GerdannaSlides/>} />
 
 
 

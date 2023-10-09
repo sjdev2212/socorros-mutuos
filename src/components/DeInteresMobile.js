@@ -28,6 +28,11 @@ const DeInteresMobile = () => {
                 Prestadores Medicos Perifericos
                 </Link>
             </li>
+            <li>
+                <Link className="de-interes-link" to="/gerdanna-slides">
+                Gerdanna Salud
+                </Link>
+            </li>
         </ul>
     </main>
   )

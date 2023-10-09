@@ -14,9 +14,7 @@ const Subsidio = () => {
         <p>
         Producido el fallecimiento del asociado adherido, ante la presentación de la Partida de Defunción en la Secretaría de la Asociación, se procederá a la apertura del sobre que contiene la «Declaración de Beneficiarios». El o los beneficiarios designados, percibirán el importe conforme con la cápita acordada en su oportunidad
         </p>
-        <p>
-        Importe del Subsidio: Desde $1.582 hasta $4.325, dependiendo de la cápita que abone
-        </p>
+   
     </main>
   )
 }

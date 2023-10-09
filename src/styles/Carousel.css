@@ -38,6 +38,13 @@
 .link-style:hover{
   color: #050505;
 }
+.slide-container-desk ul{
+  position: relative;
+  bottom: 9vw;
+  width: 20vw;
+}
+
+
 
 
 @media screen and (width <= 768px) {

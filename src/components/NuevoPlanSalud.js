@@ -30,12 +30,7 @@ La Asociación Socorros Mutuos está realizando un reempadronamiento  y una insc
 <p>
 Los profesionales atenderán mediante un turno solicitado previamente y deberán presentarse con la Credencial de la Asociación que los habilita y su Documento de Identidad. El derecho de asistencia es INTRANSFERIBLE.
 </p>
-<p>
-¿Cuáles serán los costos?
-</p>
-<p>
-El coseguro de atención médica en los consultorios periféricos (para TODAS las Especialidades) es de $300.- En el caso de Odontología es de $250.-  y NO son reintegrables por la Asociación Socorros Mutuos. Para Kinesiología y Ecografía los coseguros dependerán de la práctica a realizar.
-</p>
+
 <p>
 ¿Dónde puedo realizar consultas sobre este PLAN de SALUD?
 </p>

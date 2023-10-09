@@ -6,6 +6,7 @@ import "react-slideshow-image/dist/styles.css";
 import gerdana from "../images/doc.jpg";
 import chacaedit from "../images/panteonesedit.jpg";
 import marpla from "../images/marpla.jpg";
+import gerdanna from "../images/gerdanna.jpeg";
 import "../styles/Carousel.css";
 
 const Carousel = () => {
@@ -47,6 +48,16 @@ const Carousel = () => {
     top: windowWidth > 768 ? "2vw" : "6vw",
     zIndex: "1",
   };
+
+  const paragraphStyle2 = {
+    color: "green",
+    fontSize: windowWidth > 768 ? "2.2vw" : "5.5vw",
+    fontWeight: "bold",
+    textAlign: "center",
+    position: "relative",
+    top: windowWidth > 768 ? "10vw" : "6vw",
+    zIndex: "1",
+  };
   const gerdanaH1 = "Plan de Salud ";
   const panteones = "Panteones Propios";
 
@@ -68,6 +79,14 @@ const Carousel = () => {
       },
       btn: "Ver mas",
       redirect: "/nuevo-plan",
+      linkStyle: "link-style",
+    },
+    {
+      url: gerdanna,
+      text: "Convenio con Gerdanna Salud ",
+      paragraph: paragraphStyle2,
+      btn: "Ver mas",
+      redirect: "http://www.gerdanna.com.ar/",
       linkStyle: "link-style",
     },
     {
@@ -142,8 +161,10 @@ const Carousel = () => {
 
                   <p style={slideImage.paragraph}>{slideImage.text}</p>
                 </div>
+                <Link  className={slideImage.linkStyle} to={slideImage.redirect}>
                 <button className="btn-vermas">
-                  <Link className={slideImage.linkStyle} to={slideImage.redirect}>{slideImage.btn}</Link></button>
+                  {slideImage.btn}</button>
+                  </Link>
               </div>
             </div>
           ))}
