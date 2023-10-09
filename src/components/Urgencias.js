@@ -1,5 +1,5 @@
 import React from 'react'
-import urgencias from '..//images/urgencias.png'
+import urgencias from '..//images/urgencias.jpeg'
 import '../styles/Urgencias.css'
 
 const Urgencias = () => {
