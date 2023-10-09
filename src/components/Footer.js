@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Footer.css";
-import google from "../images/google-maps.svg";
+import google from "../images/google.png";
 import instagram from "../images/insta.svg";
 import phone from "../images/phone.svg";
 import whats from "../images/whatup.svg";

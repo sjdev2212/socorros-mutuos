@@ -65,7 +65,7 @@ const PanteonesPropios = () => {
             <h3>
             Cementerio De La Chacarita
             </h3>
-            <p>Nuestra Asociación cuenta con tres Panteones habilitados en el Cementerio de la Chacarita. Son los identificados con las letras «A» (Nuestra Señora del Pilar) , «B» (Nuestra Señora de Luján) que cuenta con una hermosa Capilla y que en consideración a sus características histórico testimoniales, estético arquitectónicas, así como tambien paisajístico-ambientales, el Gobierno de la Ciudad de Buenos Aires viabilizó su protección legal y, por último el «C» (Nuestra Señora del Carmen).</p>
+            <p>Nuestra Asociación posee tres Panteones habilitados en el Cementerio de la Chacarita. Son los identificados con las letras «A» (Nuestra Señora del Pilar) , «B» (Nuestra Señora de Luján) que cuenta con una hermosa Capilla y que en consideración a sus características histórico testimoniales, estético arquitectónicas, así como tambien paisajístico-ambientales, el Gobierno de la Ciudad de Buenos Aires viabilizó su protección legal y, por último el «C» (Nuestra Señora del Carmen).</p>
             <p>El ingreso a los mismos es un derecho fundamental de nuestros asociados.</p>
              </div>
     <div className="slide-container-propios">
