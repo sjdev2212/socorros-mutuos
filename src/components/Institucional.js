@@ -86,7 +86,7 @@ const Institucional = () => {
 
       </div>
       <section className="inst-section">
-< div className="autoridades">
+      < div className="autoridades">
     <div className='titulo' >
    <h2>
          Autoridades
@@ -101,7 +101,7 @@ const Institucional = () => {
     <p>CR (R) Sergio Rubén  Chiachio</p>
    </div>
    <div className="director-aef">
-    <h3>Director AEF</h3>
+    <h3>Tesorero</h3>
     <p>TC Juan Jose Andrés Larroulet</p>
     <h3>
         Vocales Titulares
@@ -114,6 +114,7 @@ const Institucional = () => {
     <h3>Vocales Suplentes</h3>
     <p>CR Med (R) Miguel Rivero</p>
     <p>CR (R) Daniel Efrain Tello</p>
+    <p>CR Carlos Alberto Sanchez</p>
    </div>
    <div className="fiscalizadora">
     <h3>Junta Fiscalizadora</h3>
@@ -129,12 +130,8 @@ const Institucional = () => {
 
     <p>CR (R) Claudio Antonio Testa</p>
    </div>
-
-
-
-
-
 </div>
+
 <div className="historia">
     <h1>
         Historia de la Creación 
@@ -192,7 +189,7 @@ const Institucional = () => {
     <p>CR (R) Sergio Rubén  Chiachio</p>
    </div>
    <div className="director-aef">
-    <h3>Director AEF</h3>
+    <h3>Tesorero</h3>
     <p>TC Juan Jose Andrés Larroulet</p>
     <h3>
         Vocales Titulares
@@ -204,8 +201,8 @@ const Institucional = () => {
    <div className="vocales-sup">
     <h3>Vocales Suplentes</h3>
     <p>CR Med (R) Miguel Rivero</p>
-    <p>CN (R) Adolfo Ernesto Rinaldi</p>
     <p>CR (R) Daniel Efrain Tello</p>
+    <p>CR Carlos Alberto Sanchez</p>
    </div>
    <div className="fiscalizadora">
     <h3>Junta Fiscalizadora</h3>
@@ -218,7 +215,7 @@ const Institucional = () => {
     <h3 >
         Miembros Suplentes
     </h3>
-    <p>CR (R) Juan Antonio Grande</p>
+
     <p>CR (R) Claudio Antonio Testa</p>
    </div>
 
@@ -227,7 +224,6 @@ const Institucional = () => {
 
 
 </div>
-
 
 
             </section>
