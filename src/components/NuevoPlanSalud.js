@@ -10,7 +10,7 @@ const NuevoPlanSalud = () => {
        </div>
        <div className="nuevo-plan-text">
         <p>
-        La  <strong>ASOCIACION SOCORROS MUTUOS “FUERZAS ARMADAS” </strong>le anuncia que el 1° de noviembre de 2015 lanzó su NUEVO PLAN de SALUD con el La ASOCIACION SOCORROS MUTUOS “FUERZAS ARMADAS” le anuncia que el 1° de noviembre de 2015 lanzó su NUEVO PLAN de SALUD con el sistema de consultorios periféricos para distintas especialidades.sistema de consultorios periféricos para distintas especialidades.
+        La  <strong>ASOCIACION SOCORROS MUTUOS “FUERZAS ARMADAS” </strong>le anuncia que el 1° de noviembre de 2015 lanzó su NUEVO PLAN de SALUD con el sistema de consultorios periféricos para distintas especialidades.
         </p>
 <p>
 ¿En qué consiste este Plan?
