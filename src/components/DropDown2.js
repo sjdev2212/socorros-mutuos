@@ -21,7 +21,7 @@ const Dropdown2 = () => {
       <button style={{
         marginRight: "2vw",
       }} className="drop-btn" onMouseOver={toggleOpen}>
-        De Interes para el Socio
+        De Interes para el Asociado
       </button>
 
 

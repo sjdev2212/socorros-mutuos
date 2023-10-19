@@ -83,7 +83,7 @@ const Contacto = () => {
         </div>
         <div className="divider">
           <p className="comun">Administración de Panteones:</p>
-          <p className="resaltado">Int. 206 / 207</p>
+          <p className="resaltado">Int. 205</p>
         </div>
         <div className="divider">
           <p className="comun">Cobranzas:</p>
@@ -91,7 +91,7 @@ const Contacto = () => {
         </div>
         <div className="divider">
           <p className="comun">Prestaciones Varias:</p>
-          <p className="resaltado">Int. 32</p>
+          <p className="resaltado">Int. 32/306</p>
         </div>
         <div className="divider">
           <p className="comun">Relaciones Públicas y Promoción:</p>
@@ -101,14 +101,7 @@ const Contacto = () => {
           <p className="comun">Secretaría:</p>
           <p className="resaltado">Int. 304 y 305</p>
         </div>
-        <div className="divider">
-          <p className="comun">
-            Servicio de Urgencias- Emergencias – Atención Médica Domiciliaria:
-          </p>
-          <p className="resaltado">
-            4959-9595 para el interior del país: 0810-666-6350
-          </p>
-        </div>
+   
       </section>
     </main>
   );

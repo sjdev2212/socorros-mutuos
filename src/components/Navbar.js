@@ -26,7 +26,9 @@ const Navbar = () => {
           <Link to="/"><img className="logo" src={logo} alt="logo" width={75} height={75} /></Link>
           <p className="brand">
             <Link to="/"><strong>
-              ASOCIACION SOCORROS MUTUOS</strong>
+              ASOCIACION SOCORROS MUTUOS
+              FUERZAS ARMADAS
+              </strong>
             </Link>
           </p>
         </div>

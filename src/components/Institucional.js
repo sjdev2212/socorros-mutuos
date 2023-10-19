@@ -102,7 +102,7 @@ const Institucional = () => {
    </div>
    <div className="director-aef">
     <h3>Tesorero</h3>
-    <p>TC Juan Jose Andrés Larroulet</p>
+    <p>TC (R) Juan Jose Andrés Larroulet</p>
     <h3>
         Vocales Titulares
     </h3>
@@ -190,7 +190,7 @@ const Institucional = () => {
    </div>
    <div className="director-aef">
     <h3>Tesorero</h3>
-    <p>TC Juan Jose Andrés Larroulet</p>
+    <p>TC (R) Juan Jose Andrés Larroulet</p>
     <h3>
         Vocales Titulares
     </h3>
