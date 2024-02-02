@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import { useState, useEffect } from 'react';
 import {Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -27,16 +27,68 @@ import Turismo from './components/Turismo';
 import Visita from './components/Visita';
 import GerdannaSlides from './components/GerdannaSlides';
 import ScrollToTop from './components/ScrollToTop';
+import Modal from 'react-modal';
 
 
 
 function App() {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  useEffect(() => {
+  openModal()
+  }, [])  
+
+
+  const customStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      borderRadius: '10px',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      textAlign: 'center',
+      color: '#383838',
+    },
+  };
   return (
     <main className="main-container">
 
 <Navbar/>
 <ScrollToTop/>
+<Modal
+        isOpen={modalIsOpen}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <h2>El próximo 8 de Febrero la Mutual permanecerá cerrada por celebrarse el día de Utedyc.</h2>
+        <button style={
+          {
+            backgroundColor: 'green',
+            color: 'white',
+            padding: '10px',
+            borderRadius: '10px',
+            cursor: 'pointer',
+            border: 'none',
+            marginTop: '10px'
+          }
+        } onClick={closeModal}>Cerrar</button>
+          </Modal>
+
 <Routes>
+
 
 <Route path="/" element={<Home/>} />
 <Route path="/inst" element={<Institucional/>} />
