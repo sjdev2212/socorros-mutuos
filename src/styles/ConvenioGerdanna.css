@@ -118,6 +118,29 @@ grid-template-columns: 50% 50%;
         margin: 1vw;
         color: #353333;
     }
+.modal-list{
+   
+    height: 30vw;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+
+
+}
+.modal-list li {
+    list-style: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1vw;
+ 
+    width: 40vw;
+}
+
+
+    
+ 
 
     /* --------------MOBILE----------------- */
 

@@ -2,10 +2,58 @@ import React from 'react'
 import logo from "../images/logo.png"
 import gerdanna from "../images/gerdanna.jpg"
 import Insti from '../videos/insti.mp4'
+import ScrollToTop from "./ScrollToTop";
+import Modal from "react-modal";
+import { useState, useEffect } from "react";
 import  "../styles/ConvenioGerdanna.css"
 
 
 const ConvenioGerdanna = () => {
+const custom = {
+    content: {
+        top: "50%",
+        left: "50%",
+        right: "auto",
+        bottom: "auto",
+        marginRight: "-50%",
+        transform: "translate(-50%, -50%)",
+        width: "50%",
+        height: "50%",
+        backgroundColor: "whitesmoke",
+        border: "1px solid green",
+        borderRadius: "10px",
+        padding: "20px",
+        boxShadow: "5px 5px 5px rgba(0,0,0,0.5)",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        },
+    overlay: {
+        backgroundColor: "rgba(0,0,0,0.5)",
+        },
+    };
+
+    const h2Modal = {
+        color: "green",
+        textAlign: "center",
+    }
+
+
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    function openModal() {
+      setIsOpen(true);
+    }
+    function closeModal() {
+      setIsOpen(false);
+    }
+  
+    useEffect(() => {
+      openModal();
+    }, []);
+
+
+
     const highlight = {
         backgroundColor : "green", 
         color: "whitesmoke",
@@ -14,6 +62,31 @@ const ConvenioGerdanna = () => {
 
   return (
     <main className="convenio-cont" >
+             <ScrollToTop />
+      <Modal
+        isOpen={modalIsOpen}
+  style={custom}
+        contentLabel="Example Modal"
+      >
+
+        <h2 style={h2Modal}>NUEVO COSEGURO DE GERDANNA  SALUD</h2>
+        <ul className='modal-list'>
+            <li>Coseguro visita médica a domicilio $2500</li>
+            <li> Coseguro consulta (solo interior del país) $2000</li>
+        </ul>
+        <button  style={{
+            backgroundColor: "green",
+            color: "white",
+            padding: "10px",
+            borderRadius: "10px",
+            cursor: "pointer",
+            border: "none",
+            marginTop: "10px",
+            alignSelf: "center",
+
+            width: "100px",
+          }} onClick={closeModal}>Cerrar</button>
+      </Modal>
 <section className="convenio-left">
     <video className="video" controls >
         <source  type="video/mp4" src={Insti} />
