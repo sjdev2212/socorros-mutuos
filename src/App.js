@@ -29,6 +29,7 @@ import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
 import logo from "./images/logo.png";
+import misa from "./images/misa.jpeg";
 
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -42,6 +43,11 @@ function App() {
 
   useEffect(() => {
     openModal();
+
+    setTimeout(() => {
+      closeModal();
+    }
+    , 10000);
   }, []);
 
   const customStyles = {
@@ -61,11 +67,45 @@ function App() {
       color: "#383838",
     },
   };
+
+  const customStyles2 = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      borderRadius: "10px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      textAlign: "center",
+      color: "#383838",
+      backgroundColor : "rgb(12 151 7)",
+      height : "35vw",
+      
+
+    },
+  };
   return (
     <main className="main-container">
       <Navbar />
       <ScrollToTop />
       <Modal
+        isOpen={modalIsOpen}
+        style={customStyles2}
+        contentLabel="Example Modal"
+      >
+     <section className="popup">
+<img src={misa} alt="misa" style={{width: "65%",
+  height: "28vw"
+}}/>  
+      </section>
+     </Modal>
+     
+{/*      <Modal
         isOpen={modalIsOpen}
         style={customStyles}
         contentLabel="Example Modal"
@@ -289,7 +329,8 @@ function App() {
         >
           Cerrar
         </button>
-      </Modal>
+      </Modal> */}
+
 
       <Routes>
         <Route path="/" element={<Home />} />
