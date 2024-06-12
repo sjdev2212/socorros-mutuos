@@ -29,7 +29,7 @@ import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
 import logo from "./images/logo.png";
-import misa from "./images/misa.jpeg";
+import misa from "./images/MISA.jpeg";
 
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
