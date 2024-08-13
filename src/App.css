@@ -7,37 +7,15 @@ body{
     font-family: Heebo, sans-serif;
 
 }
-.popup{
-    margin-top: 8vw;
-    height: 30vw;
-    width: 60vw;
 
-}
 .foto{
  
     height: 30vw;
     width: 30vw;
 }
 
-.pop-title{
- display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5vw;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    color: #000;
-    margin-top: 1vw;
-}
 
-.pop-h2{
- font-size: 1.6vw;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    color: #000;
-    margin-top: 1vw;
-    margin-left: 1vw;
-}
+
 .content{
    border: 1px solid #046d00;
 
@@ -59,9 +37,7 @@ body{
     text-align: justify;
     
 }
-.items{
 
-}
 .lista{
     font-size: 1vw;
     font-family: 'Ubuntu', sans-serif;
