@@ -44,10 +44,7 @@ function App() {
   useEffect(() => {
     openModal();
 
-    setTimeout(() => {
-      closeModal();
-    }
-    , 11000);
+ 
   }, []);
 
 
@@ -267,7 +264,19 @@ PRESIDENTE
   QUORUM - ARTÍCULO 34: El quórum para cualquier tipo de Asamblea, será de la mitad más uno de los asociados con derecho a participar. En caso de no alcanzar este número a la hora fijada la Asamblea podrá sesionar válidamente treinta minutos después con los asociados presentes, cuyo número no podrá ser menor al de los miembros de los órganos directivo y de fiscalización. 
   </p>
  </section>
-
+<div>
+  <button onClick={closeModal} style={{
+    padding: "10px",
+    margin: "10px",
+    backgroundColor: "green",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer"
+  }}>
+    Cerrar
+  </button>
+</div>
  
        
   
