@@ -56,7 +56,7 @@ function App() {
       <ScrollToTop />
 
      
-    <Modal
+  {/*   <Modal
         isOpen={modalIsOpen}
          contentLabel="Modal"
         style={{
@@ -280,7 +280,7 @@ PRESIDENTE
  
        
   
-      </Modal> 
+      </Modal>  */}
 
 
       <Routes>
