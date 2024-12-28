@@ -96,13 +96,13 @@ function App() {
     }
  }>
   <p style={{
-    fontSize: "1.6rem",
+    fontSize: "1.3rem",
     fontWeight: "bold",
     color: "black",
     padding: "20px",
-    textAlign: "center"
+    textAlign: "left"
 
-  }}>Desde el 16 Dic 24 al 16 Mar 25 la asociación Socorros Mutuos Fuerzas Armadas, realizará tareas entre las 0900 hrs hasta las 1300 hrs en Sede Central y panteones de Chacarita</p>
+  }}>Desde el 16 Dic 2024 al 16 Mar 2025 la asociación Socorros Mutuos Fuerzas Armadas, realizará tareas desde las 0900 hs hasta las 1300 hs en Sede Central y de 0900 hs a 1500 hs en panteones de Chacarita</p>
   <p>
   Consejo Directivo
   </p>
