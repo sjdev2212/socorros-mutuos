@@ -28,11 +28,13 @@ import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
+import logo from "./images/logo.png";
 
 
 
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [modalIsOpen2, setIsOpen2] = useState(false);
 
   function openModal() {
     setIsOpen(true);
@@ -41,8 +43,16 @@ function App() {
     setIsOpen(false);
   }
 
+  function openModal2() {
+    setIsOpen2(true);
+  }
+  function closeModal2() {
+    setIsOpen2(false);
+  }
+
   useEffect(() => {
     openModal();
+    openModal2();
 
  
   }, []);
@@ -54,6 +64,7 @@ function App() {
     <main className="main-container">
       <Navbar />
       <ScrollToTop />
+
 
      
      <Modal
@@ -83,6 +94,8 @@ function App() {
           },
         }}
       >
+
+
  <section style={
     {
       display: "flex",
@@ -95,6 +108,17 @@ function App() {
       padding: "20px"
     }
  }>
+    <img style={
+
+    {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      margin: "auto",
+      padding: "20px"
+    }
+    } src={logo} alt="logo" width={75} height={75} />
   <p style={{
     fontSize: "1.3rem",
     fontWeight: "bold",
@@ -125,6 +149,65 @@ function App() {
   
       </Modal>  
 
+      <Modal 
+        isOpen={modalIsOpen2}  
+        contentLabel="Modal"
+        style={{
+          
+          
+          
+          overlay: {
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            
+          },
+          content: {
+           
+            width: "40%",
+            height: "70%",
+            marginTop: "7vw",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            borderRadius: "10px",
+            border: "2px solid green",
+            padding: "20px",
+            position: "relative",
+            left : "30vw",
+          
+          
+          
+          },
+          }}>
+<img 
+style={{
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  margin: "auto",
+  padding: "20px"
+}}
+src={logo} alt="logo" width={75} height={75} />
+<p style={{
+  fontSize: "1.3rem",
+  fontWeight: "bold",
+  color: "black",
+  padding: "20px",
+  textAlign: "left"
+}}>Se informa que el día 5 de febrero de 2025 la Mutual no brindará atención al público por celebrarse el Día del Trabajador de UTEDYC</p>
+<button onClick={closeModal2} style={{
+  padding: "10px",
+  margin: "10px",
+  backgroundColor: "green",
+  color: "white",
+  border: "none",
+  borderRadius: "5px",
+  cursor: "pointer"
+}}>
+  Cerrar
+</button>
+</Modal>
 
       <Routes>
         <Route path="/" element={<Home />} />
