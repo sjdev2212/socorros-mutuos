@@ -28,7 +28,6 @@ import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
-import logo from "./images/logo.png";
 import mdd from "./images/mdd.jpg"
 
 
