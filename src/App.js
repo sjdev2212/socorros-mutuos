@@ -29,6 +29,8 @@ import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
 import logo from "./images/logo.png";
+import mdd from "./images/mdd.jpg"
+
 
 
 
@@ -108,23 +110,16 @@ function App() {
     {
       display: "flex",
       flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
+  
       margin: "auto",
-      padding: "20px"
-    }
-    } src={logo} alt="logo" width={75} height={75} />
-  <p style={{
-    fontSize: "1.3rem",
-    fontWeight: "bold",
-    color: "black",
-    padding: "20px",
-    textAlign: "left"
+      padding: "20px",
+      width: "920px",
+      height: "920px"
 
-  }}>Desde el 16 Dic 2024 al 16 Mar 2025 la asociación Socorros Mutuos Fuerzas Armadas, realizará tareas desde las 0900 hs hasta las 1300 hs en Sede Central y de 0900 hs a 1500 hs en panteones de Chacarita</p>
-  <p>
-  Consejo Directivo
-  </p>
+    }
+    } src={mdd} alt="logo" width={75} height={75} />
+  
+
  </section>
 <div>
   <button onClick={closeModal} style={{
