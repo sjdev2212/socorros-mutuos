@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -27,14 +27,14 @@ import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
-import Modal from "react-modal";
-import mdd from "./images/mdd.jpg"
+/*import Modal from "react-modal";
+import mdd from "./images/mdd.jpg"*/
 
 
 
 
 function App() {
-  const [modalIsOpen, setIsOpen] = useState(false);
+ /* const [modalIsOpen, setIsOpen] = useState(false);
   
 
   function openModal() {
@@ -52,7 +52,7 @@ function App() {
 
  
   }, []);
-
+*/
 
 
 
@@ -63,7 +63,7 @@ function App() {
 
 
      
-     <Modal
+      {/* <Modal
         isOpen={modalIsOpen}
          contentLabel="Modal"
         style={{
@@ -137,6 +137,7 @@ function App() {
        
   
       </Modal>  
+      */}
 
     
 
