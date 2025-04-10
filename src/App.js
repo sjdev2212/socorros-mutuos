@@ -118,7 +118,7 @@ function App() {
     fontSize: "20px",
     marginBottom: "10px",
   }}>
-  Por adehsión al paro del gremio S.O.E.C.C.R.A., en los panteones de la Asociación se realizará una guardia mínima solo para servicios en el horario de 09:00 a 14:00 hs.
+  Por adhesión al paro del gremio S.O.E.C.C.R.A., en los panteones de la Asociación se realizará una guardia mínima solo para servicios en el horario de 09:00 a 14:00 hs.
   </p>
   <p style={{
     fontSize: "20px",
