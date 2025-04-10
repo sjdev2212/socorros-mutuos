@@ -26,15 +26,16 @@ import Novedades from "./components/Novedades";
 import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
+import { useEffect, useState } from "react";
 import ScrollToTop from "./components/ScrollToTop";
-/*import Modal from "react-modal";
-import mdd from "./images/mdd.jpg"*/
+import Modal from "react-modal";
+
 
 
 
 
 function App() {
- /* const [modalIsOpen, setIsOpen] = useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
   
 
   function openModal() {
@@ -52,7 +53,7 @@ function App() {
 
  
   }, []);
-*/
+
 
 
 
@@ -63,7 +64,7 @@ function App() {
 
 
      
-      {/* <Modal
+      <Modal
         isOpen={modalIsOpen}
          contentLabel="Modal"
         style={{
@@ -104,20 +105,27 @@ function App() {
       padding: "20px"
     }
  }>
-    <img style={
-
-    {
-      display: "flex",
-      flexDirection: "column",
-  
-      margin: "auto",
-      padding: "20px",
-      width: "920px",
-      height: "920px"
-
-    }
-    } src={mdd} alt="logo" width={75} height={75} />
-  
+   
+  <p style={{
+    fontSize: "25px",
+    fontWeight: "bold",
+    color: "green",
+    marginBottom: "10px",
+  }}>
+    Para conocimiento de nuestros asociados:
+  </p>
+  <p style={{
+    fontSize: "20px",
+    marginBottom: "10px",
+  }}>
+  Por adehsión al paro del gremio S.O.E.C.C.R.A., en los panteones de la Asociación se realizará una guardia mínima solo para servicios en el horario de 09:00 a 14:00 hs.
+  </p>
+  <p style={{
+    fontSize: "20px",
+    marginBottom: "10px",
+  }}>
+    Atte: El Consejo Directivo
+  </p>
 
  </section>
 <div>
@@ -137,7 +145,7 @@ function App() {
        
   
       </Modal>  
-      */}
+      
 
     
 
