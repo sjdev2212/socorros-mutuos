@@ -63,7 +63,7 @@ function App() {
       <ScrollToTop />
 
 
-     
+     {/*
       <Modal
         isOpen={modalIsOpen}
          contentLabel="Modal"
@@ -109,7 +109,7 @@ function App() {
   <p style={{
     fontSize: "25px",
     fontWeight: "bold",
-    color: "green",
+    color: "green",  //
     marginBottom: "10px",
   }}>
     Para conocimiento de nuestros asociados:
@@ -144,7 +144,7 @@ function App() {
  
        
   
-      </Modal>  
+      </Modal>  */}
       
 
     
