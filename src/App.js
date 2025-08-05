@@ -26,29 +26,30 @@ import Novedades from "./components/Novedades";
 import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import ScrollToTop from "./components/ScrollToTop";
-import Modal from "react-modal";
+//import Modal from "react-modal";
 
 
 
 
 
 function App() {
-  const [modalIsOpen, setIsOpen] = useState(false);
+ // const [modalIsOpen, setIsOpen] = useState(false);
   
 
-  function openModal() {
+ /* function openModal() {
     setIsOpen(true);
   }
-  function closeModal() {
+  */
+  /*function closeModal() {
     setIsOpen(false);
   }
 
-
+*/
 
   useEffect(() => {
-    openModal();
+   // openModal();
 
 
  
