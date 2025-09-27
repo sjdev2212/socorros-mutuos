@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";  
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import gerdana from "../images/doc.jpg";
 import chacaedit from "../images/panteonesedit.jpg";
 import marpla from "../images/marpla.jpg";
 import gerdanna from "../images/gerdanna.jpeg";
@@ -58,29 +57,11 @@ const Carousel = () => {
     top: windowWidth > 768 ? "10vw" : "6vw",
     zIndex: "1",
   };
-  const gerdanaH1 = "Plan de Salud ";
+
   const panteones = "Panteones Propios";
 
   const slideImages = [
-    {
-      url: gerdana,
-      text: "Atención en consultorios periféricos",
-      paragraph: paragraphStyle,
-      h1: gerdanaH1,
-      h1styled: {
-        color: "green",
-        fontSize: windowWidth > 768 ? "2.6vw" : "6.5vw",
-        fontWeight: "bold",
-        textAlign: "center",
-        marignTop: "3vw",
-        position: "relative",
-        top: "2vw",
-        zIndex: "1",
-      },
-      btn: "Ver mas",
-      redirect: "/nuevo-plan",
-      linkStyle: "link-style",
-    },
+  
     {
       url: gerdanna,
       text: "Convenio con Gerdanna Salud ",
@@ -125,7 +106,7 @@ const Carousel = () => {
       btn: "Ver mas",
       linkStyle: "link-style",
       redirect: "/turismo",
-    },
+    }
   ];
 
   useEffect(() => {

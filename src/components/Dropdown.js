@@ -35,11 +35,7 @@ const dropClosed = "drop-closed"
             </Link>
             </li>
             
-          <li className="drop-item">
-            <Link className="drop-link" to="/nuevo-plan">
-            Plan de Salud Medicos Perifericos
-            </Link>
-            </li>
+       
           <li className="drop-item">
             <Link className="drop-link" to="/convenio-gerdanna">
             Convenio "GERDANA SALUD"

@@ -45,11 +45,7 @@ const Dropdown2 = () => {
             VISITA DE UN CURSO DE LA UADE
             </Link>
             </li>
-          <li className="drop-item"> 
-          <Link className="drop-link" to="/prestadores">
-          PRESTADORES MEDICOS PERIFERICOS
-          </Link>
-          </li>
+        
           <li className="drop-item"> 
           <Link className="drop-link" to="/gerdanna-slides">
           Gerdanna Salud
