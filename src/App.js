@@ -108,9 +108,16 @@ function App() {
       padding: "20px"
     }
  }>
-<img src={dig1} alt="imagen" style={{width:"55vw", height:"52vw", marginBottom:"20px"}}/>
-<img src={dig2} alt="imagen" style={{width:"55vw", height:"52vw"}}/>
 
+<section>
+  <h3>INORMACION DE INTERÉS PARA EL ASOCIADO</h3>
+  <p>
+    El 05 Feb de 2025, la Sede Central permanecerá cerrada por celebrarse el día de UTEDYC.
+  </p>
+  <p>Los panteones se abrirán normalmente</p>
+  <p>   Consejo Directivo</p>
+
+</section>
 
 
  </section>
