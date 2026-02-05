@@ -29,8 +29,7 @@ import GerdannaSlides from "./components/GerdannaSlides";
 import { useEffect,useState} from "react";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
-import dig1 from "./images/dig1.jpg";
-import dig2 from "./images/dig2.jpg";
+
 
 
 
