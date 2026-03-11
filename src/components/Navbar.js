@@ -8,11 +8,9 @@ import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import menu from "../images/menu.png";
 import close from "../images/close.png";
-import { useDarkMode } from "../contexts/DarkModeContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   const toggleOpen = () => {
     setIsOpen(true);
@@ -34,11 +32,7 @@ const Navbar = () => {
             </Link>
           </p>
         </div>
-        <div className="dark-mode-toggle">
-          <button onClick={toggleDarkMode} className="dark-mode-btn">
-            {isDarkMode ? '💡' : '🔦'}
-          </button>
-        </div>
+     
         <section className="navbar-mobile">
           <div className="navbar-mobile-btns">
             <button
