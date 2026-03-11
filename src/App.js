@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -27,7 +26,7 @@ import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
-import { DarkModeProvider } from "./contexts/DarkModeContext";
+
 
 
 
@@ -40,7 +39,7 @@ function App() {
 
 
   return (
-    <DarkModeProvider>
+
       <main className="main-container">
         <Navbar />
         <ScrollToTop />
@@ -78,7 +77,7 @@ function App() {
         </Routes>
         <Footer />
       </main>
-    </DarkModeProvider>
+  
   );
 }
 
