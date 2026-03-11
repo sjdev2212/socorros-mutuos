@@ -1,29 +1,28 @@
 .footer-container {
-    background-color: rgb(56 114 56);
+    background-color: var(--footer-bg);
     height: 25vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .newsletter {
-    border: 2 px solid black;
-    background-color: rgb(12 151 7);
+    border: 2px solid var(--border-color);
+    background-color: var(--footer-secondary);
 }
 
 .contact {
-    background-color: rgb(12 151 7);
+    background-color: var(--footer-secondary);
 }
 
 .contact ul {
-    border: 2 px solid black;
+    border: 2px solid var(--border-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 0.2vw;
-
 }
 
 .contact li {
-    border: 1px solid rgb(169 206 145);
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     width: 17vw;
     height: 10vw;
@@ -32,11 +31,10 @@
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    color: white;
+    color: var(--text-inverse);
     font-size: 1.3vw;
     font-weight: bold;
     margin: auto;
-
 }
 
 .form{
@@ -50,23 +48,24 @@
 .input {
     width: 30%;
     height: 2vw;
-    border: 2px solid black;
-    background-color: rgb(255 255 255);
+    border: 2px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
     border-radius: 8px;
     margin-left: 1vw;
   
 }
 
 .btn-boletin {
-    background-color: rgb(255 255 255);
-    border: 2px solid black;
+    background-color: var(--button-secondary);
+    border: 2px solid var(--border-color);
     width: 16%;
     height: 2.6vw;
     margin-left: 1vw;
     margin-top: 1vw;
     font-size: 1vw;
     font-weight: bold;
-    color: rgb(0 0 0);
+    color: var(--button-secondary-text);
     cursor: pointer;
     transition: 0.5s;
     border-radius: 8px;
@@ -74,14 +73,14 @@
 }
 
 .btn-boletin:hover {
-    background-color: rgb(0 0 0);
-    color: rgb(255 255 255);
+    background-color: var(--button-primary-hover);
+    color: var(--text-primary);
 }
 
 .boletin-h1 {
     font-size: 1.5vw;
     font-weight: bold;
-    color: rgb(255 255 255);
+    color: var(--text-inverse);
     margin-top: 1vw;
     margin-left: 1.3vw;
 }
@@ -89,7 +88,7 @@
 .boletin-p {
     font-size: 1vw;
     font-weight: bold;
-    color: rgb(255 255 255);
+    color: var(--text-inverse);
     margin-top: -1vw;
     margin-left: 1.3vw;
 }

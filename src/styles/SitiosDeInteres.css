@@ -1,6 +1,6 @@
 .drop-btn{
     border: none;
-    color : black;
+    color : var(--text-primary);
     font-weight: bold;
     font-size: 1.2vw;
 
@@ -12,10 +12,10 @@
     grid-template-columns: 1fr  1fr;
     position: absolute;
     right: 10vw;
-    background-color: whitesmoke;
-    border: 3px solid rgb(0 0 0 / 15%);
+    background-color: var(--bg-secondary);
+    border: 3px solid var(--border-color);
     border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 8px 16px 0 var(--shadow);
     z-index: 1;
     margin-top: 10px;
     list-style: none;  
@@ -54,11 +54,11 @@
     text-decoration: none;
     font-size: 1vw;
     text-align: start;
-    color: rgb(71 70 70);
+    color: var(--text-primary);
 }
 
 .drop-link-interes:hover{
-    color: rgb(28 100 9);
+    color: var(--link-color);
     font-weight: bold;
     scale: 1.1;
 }

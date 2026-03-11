@@ -1,9 +1,9 @@
 @import url("react-slideshow-image/dist/styles.css");
 
 .btn-vermas{
-    background-color: #4f8a0d;
-    color: #fff;
-    border: 1px solid #000;
+    background-color: var(--button-primary);
+    color: var(--button-primary-text);
+    border: 1px solid var(--border-color);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -19,8 +19,8 @@
 }
 
 .btn-vermas:hover {
-  background-color: #f5f5f5;
-  color: #000;
+  background-color: var(--button-primary-hover);
+  color: var(--text-primary);
 }
 
 
@@ -31,12 +31,12 @@
 }
 .link-style{
   text-decoration: none;
-  color: #e2ece2;
+  color: var(--link-color);
   font-size: 1.5vw;
 
 }
 .link-style:hover{
-  color: #050505;
+  color: var(--link-hover);
 }
 .slide-container-desk ul{
   position: relative;
@@ -57,16 +57,16 @@
 }
 .link-style{
   text-decoration: none;
-  color: #161816;
+  color: var(--link-color);
   font-size: 3.5vw;
 
 }
 
 
 .btn-vermas{
-  background-color: #4f8a0d;
-  color: #fff;
-  border: 1px solid #000;
+  background-color: var(--button-primary);
+  color: var(--button-primary-text);
+  border: 1px solid var(--border-color);
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;

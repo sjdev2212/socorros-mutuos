@@ -1,13 +1,13 @@
 .navbar-container {
   height: 9.5vw;
-  border-bottom: 1px solid #0e0d0d;
+  border-bottom: 1px solid var(--navbar-border);
   position: fixed;
   top: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: var(--navbar-bg);
 }
 
 .navbar-main {
@@ -59,7 +59,7 @@ ul {
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: var(--text-primary);
   padding: 0.5vw 1vw;
   display: flex;
   justify-content: space-around;
@@ -68,7 +68,7 @@ ul {
 }
 
 .item-list:hover {
-  color: rgb(30 192 38);
+  color: var(--link-color);
 }
 
 .drop {
@@ -83,9 +83,33 @@ ul {
   display: none;
 }
 
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  margin-right: 1vw;
+}
+
+.dark-mode-btn {
+  background: none;
+  border: none;
+  font-size: 1.5vw;
+  cursor: pointer;
+  padding: 0.5vw;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.dark-mode-btn:hover {
+  transform: scale(1.1);
+}
+
+.dark-mode-btn:active {
+  transform: scale(0.95);
+}
+
 .brand a{
   text-decoration: none;
-  color: black;
+  color: var(--text-primary);
 }
 
 

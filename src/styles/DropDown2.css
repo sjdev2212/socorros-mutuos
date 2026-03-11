@@ -1,6 +1,5 @@
-
 .drop-btn:hover{
-    color: rgb(30 192 38);
+    color: var(--link-color);
     background-color: transparent;
 }
 
@@ -10,9 +9,9 @@
     flex-direction: column;
     position: absolute;
     right: 1vw;
-    background-color: whitesmoke;
-    border: 3px solid rgb(0 0 0 / 15%);
-    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    background-color: var(--bg-secondary);
+    border: 3px solid var(--border-color);
+    box-shadow: 0 8px 16px 0 var(--shadow);
     border-radius: 10px;
     z-index: 1;
     margin-top: 10px;
@@ -33,14 +32,14 @@
 
 
  .drop-item{
-  color: rgb(0 0 0);
+  color: var(--text-primary);
   margin: 0;
 width: 10vw;
 
 }
 
 .drop-item:hover{
-    color: rgb(30 192 38);
+    color: var(--link-color);
     background-color: transparent;
    
    

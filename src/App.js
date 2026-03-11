@@ -26,9 +26,9 @@ import Novedades from "./components/Novedades";
 import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
-import { useEffect,useState} from "react";
+
 import ScrollToTop from "./components/ScrollToTop";
-import Modal from "react-modal";
+import { DarkModeProvider } from "./contexts/DarkModeContext";
 
 
 
@@ -36,138 +36,53 @@ import Modal from "react-modal";
 
 
 function App() {
-  const [modalIsOpen, setIsOpen] = useState(false);
-  
-
-  function openModal() {
-    setIsOpen(true);
-  }
-  
-  function closeModal() {
-    setIsOpen(false);
-  }
-
-
-
-  useEffect(() => {
-   openModal();
+ 
 
 
  
-  }, []);
-
 
 
 
   return (
-    <main className="main-container">
-      <Navbar />
-      <ScrollToTop />
+    <DarkModeProvider>
+      <main className="main-container">
+        <Navbar />
+        <ScrollToTop />
 
 
      
-      <Modal
-        isOpen={modalIsOpen}
-         contentLabel="Modal"
-        style={{
-          overlay: {
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-            
-          },
-          content: {
-           
-            width: "60%",
-            height: "70%",
-            margin: "auto",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            borderRadius: "10px",
-            border: "2px solid green",
-            padding: "20px",
-            position: "relative",
-            top: "9vw",
-          
-          
-          },
-        }}
-      >
-
-
- <section style={
-    {
-      display: "flex",
-  flexDirection: "column",
-      textAlign: "center",
-      width: "100%",
-      height: "100%",
-      overflowY: "scroll",
-      overflowX: "hidden",
-      padding: "20px"
-    }
- }>
-
-<section>
-  <h3>INORMACION DE INTERÉS PARA EL ASOCIADO</h3>
-  <p>
-    El 05 Feb de 2025, la Sede Central permanecerá cerrada por celebrarse el día de UTEDYC.
-  </p>
-  <p>Los panteones se abrirán normalmente</p>
-  <p>   Consejo Directivo</p>
-
-</section>
-
-
- </section>
-<div>
-  <button onClick={closeModal} style={{
-    padding: "10px",
-    margin: "10px",
-    backgroundColor: "green",
-    color: "white",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer"
-  }}>
-    Cerrar
-  </button>
-</div>
- 
-       
-  
-      </Modal>  
       
 
     
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/inst" element={<Institucional />} />
-        <Route path="/historia" element={<Historia />} />
-        <Route path="/urgencias" element={<Urgencias />} />
-        <Route path="/servicios-mob" element={<ServiciosMobile />} />
-        <Route path="/nuevo-plan" element={<NuevoPlanSalud />} />
-        <Route path="/convenio-gerdanna" element={<ConvenioGerdanna />} />
-        <Route path="/sepelios" element={<Sepelios />} />
-        <Route path="/panteones-propios" element={<PanteonesPropios />} />
-        <Route path="/convenio" element={<Convenio />} />
-        <Route path="/subsidio" element={<Subsidio />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="/preguntas" element={<Preguntas />} />
-        <Route path="/asociarse" element={<Asociarse />} />
-        <Route path="/sitios-mob" element={<SitiosMobile />} />
-        <Route path="/formas-de-pago" element={<FormasDePago />} />
-        <Route path="/de-interes-mob" element={<DeInteresMobile />} />
-        <Route path="/constancia-de-pago" element={<ConstanciaDePago />} />
-        <Route path="/prestadores" element={<Prestadores />} />
-        <Route path="/novedades" element={<Novedades />} />
-        <Route path="/turismo" element={<Turismo />} />
-        <Route path="/visita" element={<Visita />} />
-        <Route path="/gerdanna-slides" element={<GerdannaSlides />} />
-      </Routes>
-      <Footer />
-    </main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/inst" element={<Institucional />} />
+          <Route path="/historia" element={<Historia />} />
+          <Route path="/urgencias" element={<Urgencias />} />
+          <Route path="/servicios-mob" element={<ServiciosMobile />} />
+          <Route path="/nuevo-plan" element={<NuevoPlanSalud />} />
+          <Route path="/convenio-gerdanna" element={<ConvenioGerdanna />} />
+          <Route path="/sepelios" element={<Sepelios />} />
+          <Route path="/panteones-propios" element={<PanteonesPropios />} />
+          <Route path="/convenio" element={<Convenio />} />
+          <Route path="/subsidio" element={<Subsidio />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/preguntas" element={<Preguntas />} />
+          <Route path="/asociarse" element={<Asociarse />} />
+          <Route path="/sitios-mob" element={<SitiosMobile />} />
+          <Route path="/formas-de-pago" element={<FormasDePago />} />
+          <Route path="/de-interes-mob" element={<DeInteresMobile />} />
+          <Route path="/constancia-de-pago" element={<ConstanciaDePago />} />
+          <Route path="/prestadores" element={<Prestadores />} />
+          <Route path="/novedades" element={<Novedades />} />
+          <Route path="/turismo" element={<Turismo />} />
+          <Route path="/visita" element={<Visita />} />
+          <Route path="/gerdanna-slides" element={<GerdannaSlides />} />
+        </Routes>
+        <Footer />
+      </main>
+    </DarkModeProvider>
   );
 }
 
