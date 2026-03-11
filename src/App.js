@@ -26,7 +26,6 @@ import Novedades from "./components/Novedades";
 import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
-
 import ScrollToTop from "./components/ScrollToTop";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
 
@@ -36,10 +35,7 @@ import { DarkModeProvider } from "./contexts/DarkModeContext";
 
 
 function App() {
- 
 
-
- 
 
 
 
