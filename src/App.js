@@ -1,5 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Historia from "./components/Historia";
@@ -26,7 +27,8 @@ import Turismo from "./components/Turismo";
 import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
-
+import Modal from "react-modal";
+import ModalPic from '../src/images/modal.jpg';
 
 
 
@@ -35,6 +37,21 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
+     const [modalIsOpen, setIsOpen] = useState(false);
+        
+      
+        function openModal() {
+          setIsOpen(true);
+        }
+        
+        function closeModal() {
+          setIsOpen(false);
+        }
+      
+
+        useEffect(() => {
+          openModal();
+        }, []);
 
 
 
@@ -44,6 +61,76 @@ function App() {
         <Navbar />
         <ScrollToTop />
 
+
+<Modal
+          isOpen={modalIsOpen}
+           contentLabel="Modal"
+          style={{
+            overlay: {
+              backgroundColor: "var(--modal-overlay)",
+              
+            },
+            content: {
+           
+              width: "60%",
+              height: "70%",
+              margin: "auto",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              borderRadius: "10px",
+              border: "2px solid var(--modal-border)",
+              padding: "20px",
+              position: "relative",
+              top: "9vw",
+              backgroundColor: "var(--modal-bg)",
+              color: "var(--text-primary)",
+          
+          
+            },
+          }}
+        >
+
+
+ <section style={
+    {
+      display: "flex",
+  flexDirection: "column",
+      textAlign: "center",
+      width: "100%",
+      height: "100%",
+      overflowY: "scroll",
+      overflowX: "hidden",
+      padding: "20px"
+    }
+ }>
+
+<section>
+
+<img src={ModalPic} alt="Modal" style={{width: "85%", height: "auto", borderRadius: "10px", marginBottom: "20px"}} />
+</section>
+<div>
+  <button onClick={closeModal} style={{
+    padding: "10px",
+    margin: "10px",
+    backgroundColor: "var(--button-primary)",
+    color: "var(--button-primary-text)",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer"
+  }}>
+    Cerrar
+  </button>
+</div>
+ 
+
+
+ </section>
+
+       
+  
+      </Modal>
 
      
       
