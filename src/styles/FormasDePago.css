@@ -36,7 +36,7 @@
 
 .forma-container ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
     grid-gap: 0.5vw;
     height: 20vw;
     margin-right: 0.5vw;

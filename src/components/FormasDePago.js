@@ -30,14 +30,7 @@ const FormasDePago = () => {
             CALLE PIEDRAS 77 5 “B” será atendido los días Jueves y Viernes de 09:00 a 12:00 hs previamente coordine por  <span> <a href="www"  onClick={handleEmailClick}> <strong>correo electronico </strong></a> </span>
             </p>
         </li>
-        <li>
-            <h3>
-                Pago por transferencia bancaria
-            </h3>
-            <p>
-            A LA CUENTA CORRIENTE NRO 710297616-000 CBU NRO 0340100800710297616003 ALIAS: GRAMO.GANCHO.PERA, una vez efectuado el envíe el comprobante al correo info@socorrosmutuos.com.ar
-            </p>
-        </li>
+       
         <li>
             <h3>
             Pago en su domicilio:

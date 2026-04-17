@@ -83,23 +83,17 @@ const Contacto = () => {
         </div>
         <div className="divider">
           <p className="comun">Administración de Panteones:</p>
-          <p className="resaltado">Int. 205</p>
+          <p className="resaltado">Int. 204</p>
         </div>
         <div className="divider">
           <p className="comun">Cobranzas:</p>
-          <p className="resaltado"> Int. 208</p>
+          <p className="resaltado"> Int. 203</p>
         </div>
-        <div className="divider">
-          <p className="comun">Prestaciones Varias:</p>
-          <p className="resaltado">Int. 32/306</p>
-        </div>
-        <div className="divider">
-          <p className="comun">Relaciones Públicas y Promoción:</p>
-          <p className="resaltado">Int. 33</p>
-        </div>
+       
+     
         <div className="divider">
           <p className="comun">Secretaría:</p>
-          <p className="resaltado">Int. 304 y 305</p>
+          <p className="resaltado">Int. 32</p>
         </div>
    
       </section>
