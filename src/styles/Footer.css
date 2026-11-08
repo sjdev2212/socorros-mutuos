@@ -15,15 +15,16 @@
 }
 
 .contact ul {
-    border: 2px solid var(--border-color);
+    border: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 0.2vw;
+    margin: 0;
+    padding: 0;
 }
 
 .contact li {
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
+    border: none;
+    border-radius: 0;
     width: 17vw;
     height: 10vw;
     display: flex;

@@ -4,17 +4,9 @@ import '../styles/FormasDePago.css'
 
 const FormasDePago = () => {
 
-    const emailAddress = 'info@socorrosmutos.com.ar'; 
-    const corporativo = '+1126577262'; 
+    const emailAddress = 'info@socorrosmutuos.com.ar';
+    const corporativo = '+1126577262';
 
-
-  const handleEmailClick = () => {
-    // Create a mailto link with the email address
-    const mailtoLink = `mailto:${emailAddress}`;
-
-    // Open the user's email client with the mailto link
-    window.location.href = mailtoLink;
-  };
   return (
     <main className="forma-container">
 
@@ -27,7 +19,7 @@ const FormasDePago = () => {
                 Pago presencial en la sede de la Asociación
             </h3>
             <p>
-            CALLE PIEDRAS 77 5 “B” será atendido los días Jueves y Viernes de 09:00 a 12:00 hs previamente coordine por  <span> <a href="www"  onClick={handleEmailClick}> <strong>correo electronico </strong></a> </span>
+            CALLE PIEDRAS 77 5 “B” será atendido los días Jueves y Viernes de 09:00 a 12:00 hs previamente coordine por  <span> <a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer"> <strong>correo electrónico </strong></a> </span>
             </p>
         </li>
        

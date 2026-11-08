@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders a mailto link for the contact email', () => {
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+
+  const emailLink = screen.getByRole('link', { name: /correo electrónico/i });
+  expect(emailLink).toHaveAttribute('href', 'mailto:info@socorrosmutuos.com.ar');
 });

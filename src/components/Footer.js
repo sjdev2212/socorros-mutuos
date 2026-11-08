@@ -10,15 +10,8 @@ import mail from "../images/mail.svg";
 
 const Footer = () => {
   const watup = '+1126577262';
-  const emailAddress = 'info@socorrosmutos.com.ar'; 
+  const emailAddress = 'info@socorrosmutuos.com.ar';
 
-  const handleEmailClick = () => {
-    // Create a mailto link with the email address
-    const mailtoLink = `mailto:${emailAddress}`;
-
-    // Open the user's email client with the mailto link
-    window.location.href = mailtoLink;
-  };
   return (
     <main className="footer-container">
       <section className="newsletter">
@@ -99,9 +92,14 @@ const Footer = () => {
           </li>
           <li>
             <div>
-              <Link onClick={handleEmailClick} target="_blank" rel="noopener noreferrer">
-              <img className="mail" src={mail} alt="mail" />
-              </Link>
+              <a
+                href={`mailto:${emailAddress}`}
+                aria-label="Correo electrónico"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="mail" src={mail} alt="mail" />
+              </a>
             </div>
             <p className="contact-whats">Correo electrónico</p>
           </li>

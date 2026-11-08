@@ -28,7 +28,7 @@ import Visita from "./components/Visita";
 import GerdannaSlides from "./components/GerdannaSlides";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "react-modal";
-import ModalPic from '../src/images/modal.jpg';
+import ModalPic from '../src/images/conv.jpg';
 
 
 
